@@ -1,0 +1,9 @@
+.retanguloAzul{
+    background-color: #2444b5;
+    position: absolute;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}

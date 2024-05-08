@@ -1,3 +1,9 @@
+
+.textoBoasVindas{
+    width: 10vw;
+    position: absolute;
+}
+
 .retanguloAzul{
     background-color: #2444b5;
     position: absolute;
@@ -6,4 +12,10 @@
     height: 100vh;
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
+}
+
+.imagem{
+position: absolute;
+width: 380px;
+height: 526px;
 }

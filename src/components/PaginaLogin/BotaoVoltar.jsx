@@ -3,10 +3,10 @@ import "../../style/paginaLogin.css"
 
 export default function BotaoVoltar(){
     return(
-        <div className="botaoVoltar">
-            <img src=""></img>
-            <a href="">Voltar</a> 
-        </div>
+        <a className="botaoVoltar" href="">
+            <img src="seta.png"></img>
+            <p>VOLTAR</p> 
+        </a>
         
     )
 }

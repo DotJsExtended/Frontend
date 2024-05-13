@@ -3,7 +3,7 @@ import "../../style/paginaLogin.css"
 
 export default function Logo(){
     return(
-        <div>
+        <div className="logo">
             <img src="FreeLaB.svg"></img>
         </div>
     )

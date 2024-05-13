@@ -9,23 +9,27 @@
 }
 
 .titleHeader {
-    height: 120px;
-    font-size: 100px;
-    text-align: center;
-    font-family: "neopixel";
+    font-family: neopixel;
+    font-size: 60px;
 }
 
 .subtitleHeader {
-    font-family: "neue machina";
-    font-size: 25px;
+    font-family: neue machina;
+    font-size: 20px;
     color: #2444B5;
-    width: 60vw;
-    height: 48px;
-    text-align: center;
+    width: 50vw;
+    justify-content: center;
+}
+
+.subtitleHeader2 {
+    display: flex;
+    justify-content: center;
+    height: 50px;
 }
 
 .Header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }

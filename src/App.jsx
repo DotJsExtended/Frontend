@@ -1,11 +1,10 @@
-import './App.css'
-import Cadastro from './pages/Cadastro'
+import PaginaCadastro from './pages/PaginaCadastro'
 
 function App() {
 
   return (
     <>
-      <Cadastro />
+      <PaginaCadastro />
     </>
   )
 }

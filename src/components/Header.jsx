@@ -1,4 +1,5 @@
 import '../styles/Header.css'
+import Voltar from './Voltar'
 
 export default function Header()
 {
@@ -12,7 +13,7 @@ export default function Header()
                     Cadastre-se e junte-se à nossa comunidade de talentosos freelancers e contratantes
                 </div>
             </div>
-                
+            <Voltar />
         </div>
     )
 }

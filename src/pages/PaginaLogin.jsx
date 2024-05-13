@@ -1,13 +1,13 @@
 import React from "react";
-import "../style/paginaLogin.css"
+import "../style/PaginaLogin.css"
 import CampoLogin from "../components/PaginaLogin/CampoLogin";
 import CampoSenha from "../components/PaginaLogin/CampoSenha";
 
 import BotaoContinuar from "../components/PaginaLogin/BotaoContinuar";
 import BotaoCriarConta from "../components/PaginaLogin/BotaoCriarConta";
 import BotaoVoltar from "../components/PaginaLogin/BotaoVoltar";
-import Imagem from "../components/PaginaLogin/Imagem";
-import Logo from "../components/PaginaLogin/Logo";
+import Imagem from "../components/Imagem";
+import Logo from "../components/Logo"; 
 
 export default function PaginaLogin(){
     return(
@@ -20,7 +20,9 @@ export default function PaginaLogin(){
                     acessar sua conta e explorar novas
                     oportunidades ou gerenciar seus projetos</p>
                 </div>
-                <Imagem />
+                <Imagem 
+                imagem = "./image-removebg-preview 1.png"
+                />
             </div>
             <div className="retanguloAzul">
                 <h1>LOGIN</h1>

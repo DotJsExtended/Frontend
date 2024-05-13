@@ -1,5 +1,6 @@
 import React from "react";
-import "../../style/paginaLogin.css"
+import "../../style/PaginaLogin.css"
+
 
 export default function Logo(){
     return(

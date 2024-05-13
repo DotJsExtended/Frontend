@@ -1,7 +1,7 @@
 import React from "react";
-import "../../style/paginaLogin.css"
+import "../style/paginaLogin.css"
 
-export default function CampoLogin({iconSrc, placeholder, icon2Src}){
+export default function Campo({iconSrc, placeholder, icon2Src}){
     return(
         <div className={className}>
             <img src={iconSrc}></img>

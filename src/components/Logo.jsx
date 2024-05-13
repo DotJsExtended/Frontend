@@ -1,11 +1,13 @@
 import React from "react";
-import "../../style/PaginaLogin.css"
+import "../style/paginaLogin.css"
 
 
 export default function Logo(){
     return(
-        <div className="logo">
+        <div className={className}>
             <img src="FreeLaB.svg"></img>
         </div>
     )
 }
+
+//classname logo

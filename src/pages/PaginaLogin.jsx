@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/PaginaLogin.css"
+import "../style/paginaLogin.css"
 import CampoLogin from "../components/PaginaLogin/CampoLogin";
 import CampoSenha from "../components/PaginaLogin/CampoSenha";
 

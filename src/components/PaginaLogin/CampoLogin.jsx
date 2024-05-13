@@ -1,5 +1,5 @@
 import React from "react";
-import "../../style/PaginaLogin.css"
+import "../../style/paginaLogin.css"
 
 export default function CampoLogin({iconSrc, placeholder, icon2Src}){
     return(

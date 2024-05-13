@@ -1,14 +1,16 @@
 import React from "react";
-import "../../style/PaginaLogin.css"
+import "../style/paginaLogin.css"
 
-export default function Imagem({imagem}){
+export default function ImagemPadrao({imagem}){
     return(
-        <div className="imagem">
+        <div className={className}>
             <img src={imagem}></img>
         </div>
         
     )
 }
+
+//classname imagem
 
 //image-removebg-preview 1.png
 

@@ -17,5 +17,3 @@ export default function Campo({iconSrc, placeholder, icon2Src, className}){
 }
 
 //classname campoSenha
-
-//fazer className do login e ele é sem icon25rc

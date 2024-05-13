@@ -3,6 +3,6 @@ import "../../style/paginaLogin.css"
 
 export default function BotaoCriarConta(){
     return(
-        <button>CRIAR CONTA</button>
+        <button className="criarConta">CRIAR CONTA</button>
     )
 }

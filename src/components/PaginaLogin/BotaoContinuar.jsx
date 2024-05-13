@@ -3,6 +3,6 @@ import "../../style/paginaLogin.css"
 
 export default function BotaoContinuar(){
     return(
-        <button>CONTINUAR</button>
+        <button className="continuar">CONTINUAR</button>
     )
 }

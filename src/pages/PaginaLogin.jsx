@@ -17,14 +17,19 @@ export default function PaginaLogin(){
                 <Imagem />
             </div>
             <div className="retanguloAzul">
-                <h1>Login</h1>
-                <p>ou use seu endereço de email ou nome de usuário</p>
-                <CampoLogin placeholder={"Email ou nome de usuário"} />
-                <CampoLogin iconSrc={""} placeholder={"Senha"} icon2Src={""}/>
+                <h1>LOGIN</h1>
+                <img className="oAuthIcons" src="Group 4.png"></img>
+                <p>ou use seu endereço de email ou</p>
+                <p>nome de usuário</p>
+                <CampoLogin iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} />
+                <CampoLogin iconSrc={"lock.png"} placeholder={"Senha"} icon2Src={"eye.png"}/>
                 <p>Esqueci a minha senha</p>
                 <BotaoContinuar />
-                <p>Não tem uma conta?</p>
-                <BotaoCriarConta />
+                <div className="semConta">
+                    <p>Não tem uma conta?</p>
+                    <BotaoCriarConta />
+                </div>
+                
             </div>
         </div>
     )

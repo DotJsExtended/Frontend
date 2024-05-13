@@ -3,10 +3,12 @@ import "../../style/paginaLogin.css"
 
 export default function CampoLogin({iconSrc, placeholder, icon2Src}){
     return(
-        <div>
+        <div className="campoLogin">
             <img src={iconSrc}></img>
             <input type="text" placeholder={placeholder} />
-            <img src={icon2Src}></img>
+            <div className="icon2">
+                <img src={icon2Src}></img>
+            </div>
         </div>
     )
 }

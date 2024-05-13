@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Neopixel;
+  src: local(Neopixel), url(../assets/neopixelRegular.otf);
+}
+
+@font-face {
+  font-family: NeueMachinaRegular;
+  src: local(NeueMachina), url(../assets/NeueMachina-Regular.otf);
+}
+
 *{
   padding: 0;
   margin: 0;

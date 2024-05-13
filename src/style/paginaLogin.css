@@ -1,4 +1,12 @@
+@font-face {
+    font-family: Neopixel;
+    src: local(Neopixel), url(../assets/neopixelRegular.otf);
+}
 
+@font-face {
+    font-family: NeueMachinaRegular;
+    src: local(NeueMachina), url(../assets/NeueMachina-Regular.otf);
+}
 .textoBoasVindas{
     width: 10vw;
     position: absolute;
@@ -15,7 +23,12 @@
 }
 
 .imagem{
-position: absolute;
-width: 380px;
-height: 526px;
+    position: absolute;
+    width: 380px;
+    height: 526px;
+}
+
+p{
+    font-family: NeueMachinaRegular;
+    font-size: 21px;
 }

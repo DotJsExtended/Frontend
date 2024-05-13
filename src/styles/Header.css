@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "neopixel";
+    src: url("/NEOPIXEL.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "neue machina";
+    src: url("/NeueMachina-Regular.otf") format("opentype");
+}
+
+.titleHeader {
+    height: 120px;
+    font-size: 100px;
+    text-align: center;
+    font-family: "neopixel";
+}
+
+.subtitleHeader {
+    font-family: "neue machina";
+    font-size: 25px;
+    color: #2444B5;
+    width: 60vw;
+    height: 48px;
+    text-align: center;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

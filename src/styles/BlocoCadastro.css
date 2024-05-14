@@ -13,15 +13,15 @@
 @font-face 
 {
     font-family: "raleway";
-    src: url("../../public/Raleway-Regular.ttf") format("opentype");
+    src: url("/Raleway-Regular.ttf") format("opentype");
 }
 
 .blocoCadastro 
 {
     color: #FFFAFA;
     background-color: #2444B5;
-    width: 800px;
-    height: 400px;
+    width: 1000px;
+    height: 550px;
     border-radius: 16px;
     position: absolute;
     left: 100px;
@@ -32,12 +32,15 @@
 {
     text-align: center;
     font-family: neue machina ultrabold;
-    font-size: 27px;
+    font-size: 32px;
     padding-top: 20px;
+    position: relative;
+    top: 18px;
 }
 
 .inputsBlocoCadastro {
     font-family: raleway;
+    padding: 30px;
     font-size: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -45,48 +48,77 @@
 }
 
 .inputsBlocoCadastro input {
-    color: #000;
-    font-size: 14px;
+    font-family: raleway;
+    color: #555555;
+    font-size: 16px;
     width: 50px;
-    height: 36px;
+    height: 45px;
     background-color: #fffafa;
-    border-radius: 8px;
+    border-radius: 7px;
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+.blocosInputBlocoCadastro {
+    margin-top: 15px;
 }
 
 .inputNome input
 {
-    width: 1000px;
+    width: 550px;
+    margin-right: 25px;
 }
 
-.inputUser
+.inputUser input
 {
-    
+    width: 341px;
 }
 
-.inputEmail
+.inputEmail input
 {
-    
+    width: 360px;
+    margin-right: 25px;
 }
 
-.inputID
+.inputID input
 {
-    
+    width: 247px;
+    margin-right: 25px;
 }
 
-.inputTel
+.inputTel input
 {
-    
+    width: 247px;
 }
 
-.inputSenha
+.inputSenha input
 {
-    
+    width: 360px;
+    margin-right: 25px;
 }
 
-.inputAreas
+.inputAreas input
 {
-    
+    width: 531px;
+}
+
+.blocoTextosProibidos 
+{
+    font-family: neue machina;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 30px;
+    position: relative;
+    top: -15px;
+}
+
+.textosProibidos 
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
 }

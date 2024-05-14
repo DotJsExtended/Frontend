@@ -3,10 +3,12 @@ import '../styles/Voltar.css'
 export default function Voltar()
 {
     return (
-        <div className="textoVoltar">
+        <div className="botaoVoltar">
             <a href="#">
                 <img src="/seta.svg"></img>
-                VOLTAR  
+                <div className="textoBotaoVoltar">
+                    VOLTAR  
+                </div>
             </a>
         </div>
     )

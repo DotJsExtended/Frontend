@@ -9,5 +9,3 @@ export default function Logo({className}){
         </div>
     )
 }
-
-//classname logo

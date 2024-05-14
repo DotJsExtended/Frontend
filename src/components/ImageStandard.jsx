@@ -9,9 +9,3 @@ export default function ImagemPadrao({imagem, className}){
         
     )
 }
-
-//classname imagem
-
-//image-removebg-preview 1.png
-
-//colocar classame como argumento

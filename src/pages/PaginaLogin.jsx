@@ -1,19 +1,21 @@
 import React from "react";
 import "../style/paginaLogin.css"
-import CampoLogin from "../components/PaginaLogin/CampoLogin";
-import CampoSenha from "../components/PaginaLogin/CampoSenha";
-
-import BotaoContinuar from "../components/PaginaLogin/BotaoContinuar";
-import BotaoCriarConta from "../components/PaginaLogin/BotaoCriarConta";
-import BotaoVoltar from "../components/PaginaLogin/BotaoVoltar";
-import ImagemPadrao from "../components/ImagemPadrao";
+import Input from "../components/Input"
+import Button from "../components/Button";
+import Buttontxt from "../components/Buttontxt";
+import ImagemPadrao from "../components/ImageStandard";
 import Logo from "../components/Logo"; 
 
 export default function PaginaLogin(){
     return(
         <div>
             <div className="retanguloBranco">
-                <BotaoVoltar />
+                <Buttontxt 
+                    className={"botaoVoltar"} 
+                    href={""} 
+                    img={"seta.png"} 
+                    texto={"VOLTAR"}  
+                />
                 <Logo className={"Logo"}/>
                 <div className="textoBemVindo">
                     <p>Bem vindo de volta! Faça login para
@@ -29,16 +31,21 @@ export default function PaginaLogin(){
                     <p>ou use seu endereço de email ou</p>
                     <p>nome de usuário</p>
                 </div>
-                <CampoLogin iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} />
+                <Input className={"campoSenha"} iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} />
                 <div className="senha">
-                    <CampoSenha iconSrc={"lock.png"} placeholder={"Senha"} icon2Src={"eye.png"}/>
+                    <Input className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} icon2Src={"eye.png"}/>
                     <a href="">Esqueci a minha senha</a>
                 </div>
                 
-                <BotaoContinuar />
+                <Button 
+                className={"continuar"}
+                textobtt={"CONTINUAR" }
+                />
                 <div className="semConta">
                     <p>Não tem uma conta?</p>
-                    <BotaoCriarConta />
+                    <Button
+                     className={"criarConta"}
+                     textobtt={"CRIAR CONTA"} />
                 </div>
                 
             </div>

@@ -1,9 +1,9 @@
 import React from "react";
-import "../../style/paginaLogin.css"
+import "../style/paginaLogin.css"
 
-export default function CampoSenha({iconSrc, placeholder, icon2Src}){
+export default function Input({iconSrc, placeholder, icon2Src, className}){
     return(
-        <div className="campoSenha">
+        <div className={className}>
             <img src={iconSrc}></img>
             <input type="text" placeholder={placeholder} />
             <div className="icon2">
@@ -15,7 +15,3 @@ export default function CampoSenha({iconSrc, placeholder, icon2Src}){
         </div>
     )
 }
-
-//classname campoSenha
-
-//fazer className do login e ele é sem icon25rc

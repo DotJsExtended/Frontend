@@ -1,3 +1,5 @@
+import Button from "./Buttons/Button"
+
 export default function Header({ label, texto1, texto2 }) {
   return (
    <header>
@@ -6,12 +8,16 @@ export default function Header({ label, texto1, texto2 }) {
       <h3>{texto1}</h3>
       <h3>{texto2}</h3>
       </div>
-        <button className="login">
-          {label} <p>LOG-IN</p>
-        </button>
-        <button className="criarconta">
-          {label} <p>CRIAR CONTA</p>
-        </button>
+      <Button
+                className={"login"}
+                textobtt={"LOG-IN"} 
+                caminho={"/login"}
+            />
+      <Button
+                className={"criarconta"}
+                textobtt={"CRIAR CONTA"} 
+                caminho={"/cadastro"}
+            />
      </header>
     )
 }

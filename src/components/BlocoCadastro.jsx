@@ -1,5 +1,6 @@
 import '../styles/BlocoCadastro.css'
-import InputBlocoCadastro from './InputBlocoCadastro'
+import Button from './Buttons/Button'
+import InputBlocoCadastro from './Inputs/InputBlocoCadastro'
 import TextoProibido from './TextoProibido'
 
 export default function BlocoCadastro()
@@ -25,12 +26,12 @@ export default function BlocoCadastro()
                 <TextoProibido textoProibido={"Pelo menos um número"}/>  
             </div>    
 
-            <div className="botaoContinuar">
-            <button>
-                CONTINUAR
-            </button>
-            </div>
-        
+            <Button
+                className={"botaoContinuar"}
+                textobtt={"CONTINUAR"} 
+                caminho={"/home"}
+            />
+                
         </div>
     )
 }

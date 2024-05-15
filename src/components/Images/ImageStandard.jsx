@@ -1,7 +1,6 @@
 import React from "react";
-import "../styles/paginaLogin.css"
 
-export default function ImagemPadrao({imagem, className}){
+export default function ImageStandard({imagem, className}){
     return(
         <div className={className}>
             <img src={imagem}></img>

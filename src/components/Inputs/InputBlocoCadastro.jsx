@@ -5,7 +5,7 @@ export default function InputBlocoCadastro({nomeClassName, textInput, typeInput}
            <div className={nomeClassName} type={typeInput}>
                     {textInput}
                     <form>
-                        <input autocomplete="off" required type={typeInput}/>
+                        <input autoComplete="off" required type={typeInput}/>
                     </form>
             </div> 
         </div>

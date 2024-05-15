@@ -1,20 +1,20 @@
 import React from "react";
 import "../styles/paginaLogin.css"
-import Input from "../components/Input"
-import InputImg from "../components/InputImg"
-import Button from "../components/Button"
-import Buttontxt from "../components/Buttontxt";
-import ImagemPadrao from "../components/ImageStandard";
+import Input from "../components/Inputs/Input"
+import Input2Img from "../components/Inputs/Input2Img"
+import Button from "../components/Buttons/Button"
+import ButtonTxt from "../components/Buttons/ButtonTxt";
+import ImageStandard from "../components/Images/ImageStandard";
 import Logo from "../components/Logo"; 
 
 export default function PaginaLogin(){
     return(
         <div>
             <div className="retanguloBranco">   
-                <Buttontxt 
+                <ButtonTxt 
                     className={"botaoVoltar"} 
-                    href={""} 
-                    img={"seta.png"} 
+                    caminho={"/cadastro"} 
+                    img={"seta.svg"} 
                     texto={"VOLTAR"}  
                 />
                 <Logo className={"Logo"}/>
@@ -23,7 +23,7 @@ export default function PaginaLogin(){
                     acessar sua conta e explorar novas
                     oportunidades ou gerenciar seus projetos</p>
                 </div>
-                <ImagemPadrao imagem = {"image-removebg-preview 1.png"} className={"imagem"} />
+                <ImageStandard imagem = {"image-removebg-preview 1.png"} className={"imagem"} />
             </div>
             <div className="retanguloAzul">
                 <h1>LOGIN</h1>
@@ -32,12 +32,13 @@ export default function PaginaLogin(){
                     <p>ou use seu endereço de email ou</p>
                     <p>nome de usuário</p>
                 </div>
-                <Input className={"campoSenha"} iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} />
+                <Input className={"campoSenha"} iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} type= {'text'}
+                />
                 <div className="senha">
-                    <InputImg className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} icon2Src={"eye.png"}/>
+                    <Input2Img className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} icon2Src={"eye.png"}/>
                     <a href="">Esqueci a minha senha</a>
                 </div>
-                <Button campoLogin
+                <Button
                 className={"continuar"}
                 textobtt={"CONTINUAR" }
                 caminho={"/home"}

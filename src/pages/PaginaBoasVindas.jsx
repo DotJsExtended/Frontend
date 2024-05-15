@@ -2,7 +2,7 @@ import '../styles/HeaderNicolas.css'
 import '../styles/texto.css'
 import Header from '../components/HeaderNicolas'
 import Texto from '../components/Texto'
-import Botoes from '../components/Botoes'
+import Button from '../components/Buttons/Button'
 
 function PaginaBoasVindas() {
 
@@ -17,7 +17,14 @@ function PaginaBoasVindas() {
      texto3={'Contrate talentos flexíveis hoje mesmo!'}     
      texto4={'Conectamos talentos excepcionais a projetos extraordinários. Descubra uma comunidade vibrante de freelancers qualificados prontos para transformar suas ideias em realidade.'}
      />
-     <Botoes/>
+     <Button 
+     textobtt= {'QUERO CONTRATAR'}
+     className= {'botaoContratar'}
+     />
+     <Button
+     textobtt= {'QUERO TRABALHAR'}
+     className= {'botaoTrabalhar'}
+     />
      </>
   )
 }

@@ -20,8 +20,20 @@
 .sessao h1{
   font-size: 50px;
   color: rgb(36, 68, 181);
+  height: 20px;
 }
 
+.sessao h3{
+  font-size: 30px;
+  font-weight: lighter;
+  margin-top: 80px;
+}
+
+.sessao p{
+  font-size: 15px;
+  font-weight: lighter;
+
+}
 
 .button1{
   height: 40px;
@@ -31,6 +43,8 @@
   border-radius: 30px;
   border-color: rgb(153, 230, 38);
   background-color: rgb(153, 230, 38);
+  font-family: "neuemachina;";
+  font-size: 15px;
 }
 
 .button2{
@@ -41,5 +55,8 @@
   border-radius: 30px;
   border-color: rgb(36, 68, 181);
   background-color: rgb(36, 68, 181);
+  font-family: "neuemachina;";
+  font-size: 15px;
+  
 }
 

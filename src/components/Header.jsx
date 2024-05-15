@@ -3,8 +3,8 @@ export default function Header({ label, texto1, texto2 }) {
    <header>
       <div className="headertexto">
       <div className="logo">FreeLab</div>
-      <h3>{texto1}</h3>SOBRE NÓS
-      <h3>{texto2}</h3>SAIBA MAIS
+      <h3>{texto1}</h3>
+      <h3>{texto2}</h3>
       </div>
         <button className="login">
           {label} <p>LOG-IN</p>

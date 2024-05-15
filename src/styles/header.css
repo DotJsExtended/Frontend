@@ -11,6 +11,18 @@
 .logo{
     font-family: "neopixel";
     font-size: 50px;
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0 2rem;
+}
+
+.headertexto h3{
+  font-family: "neuemachina";
+  width: 150px;
+  padding: 0 2rem;
+  font-size: 17px;
+  font-weight: lighter;
 }
 
 .login{
@@ -20,6 +32,9 @@
     border-color: rgb(36, 68, 181);
     margin: 45px;
     background-color: rgb(36, 68, 181);
+    font-family: "neuemachina";
+    font-size: 15px;
+    margin-left: 550px;
   }
   
   .criarconta{
@@ -29,7 +44,10 @@
     border-color: rgb(153, 230, 38);
     background-color: rgb(153, 230, 38);
     margin: 45px;
-    font-family: "neuemachina;"
+    font-family: "neuemachina;";
+    font-size: 15px;
+    margin-right: 0 2 rem;
+
   }
 
   header{

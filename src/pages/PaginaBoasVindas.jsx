@@ -1,10 +1,10 @@
-import '../styles/header.css'
+import '../styles/HeaderNicolas.css'
 import '../styles/texto.css'
 import Header from '../components/HeaderNicolas'
 import Texto from '../components/Texto'
 import Botoes from '../components/Botoes'
 
-function TelaBoasVindas() {
+function PaginaBoasVindas() {
 
   return (
      <>
@@ -22,4 +22,4 @@ function TelaBoasVindas() {
   )
 }
 
-export default TelaBoasVindas
+export default PaginaBoasVindas

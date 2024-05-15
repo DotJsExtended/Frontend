@@ -1,11 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import PaginaLogin from './pages/PaginaLogin'
-import PaginaHome from './pages/PaginaHome'
+import PaginaSobreNos from './pages/PaginaSobreNos'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-  <PaginaLogin />
-  <PaginaHome/>
+  <PaginaSobreNos/>
   </React.StrictMode>,
 )

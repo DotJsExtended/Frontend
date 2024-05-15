@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "neue machina";
+    src: url("../assets/NeueMachina-Regular.otf") format("opentype");
+}
+
+.botaoVoltar {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    font-family: neue machina;
+    font-size: 23px;
+}
+
+.textoBotaoVoltar {
+    color: black;
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+
+.botaoVoltar a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+}

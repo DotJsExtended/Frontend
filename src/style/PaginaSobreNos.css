@@ -1,0 +1,77 @@
+@font-face {
+    font-family: NeueMachinaRegular;
+    src: local(NeueMachina), url(../assets/NeueMachina-Regular.otf);
+}
+
+@font-face {
+    font-family: NeueMachinaUltrabold;
+    src: local(NeueMachina), url(../assets/NeueMachina-Ultrabold.otf);
+}
+
+.PaginaSobreNos
+{
+    font-family: NeueMachinaRegular;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerPaginaSobreNos 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.textoSobreNos
+{
+    font-size: 48px;
+    width: 800px;
+    text-align: center;
+    position: relative;
+    top: 110px;
+}
+
+.objetivoTextoSobreNos
+{
+    font-family: NeueMachinaUltrabold;
+}
+
+.freelabTextoSobreNos 
+{
+    font-family: NeueMachinaUltrabold;
+    color: #99E626;
+}
+
+.imagensTextoSobreNos 
+{
+    display: flex;
+    gap: 100px;
+    position: relative;
+    top: 170px;
+}
+
+.imagensTextoSobreNos div 
+{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagensTextoSobreNos img
+{
+    height: 290px;
+    transition: height 0.5s ease;
+}
+
+.imagensTextoSobreNos img:hover
+{
+    height: 300px;
+}
+
+.imagensTextoSobreNos texto 
+{
+    font-size: 20px;
+    width: 400px;
+    text-align:center;
+}

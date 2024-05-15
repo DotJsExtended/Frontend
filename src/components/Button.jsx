@@ -1,12 +1,9 @@
 import React from "react";
 import "../style/paginaLogin.css"
+import { Link } from "react-router-dom";
 
-export default function BotaoCriarConta({className,textobtt,caminhopagina}){
+export default function BotaoCriarConta({className,textobtt, caminho}){
     return(
-        <button className={className} onClick={Screen({caminhopagina})}>{textobtt}</button>
+        <Link to={caminho}><button className={className} >{textobtt}</button></Link>
     )
-}
-
-function Screen({caminhopagina}){
-    window.location.href = {caminhopagina}
 }

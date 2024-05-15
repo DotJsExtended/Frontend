@@ -10,7 +10,7 @@ import Logo from "../components/Logo";
 export default function PaginaLogin(){
     return(
         <div>
-            <div className="retanguloBranco">
+            <div className="retanguloBranco">   
                 <Buttontxt 
                     className={"botaoVoltar"} 
                     href={""} 
@@ -40,6 +40,7 @@ export default function PaginaLogin(){
                 <Button campoLogin
                 className={"continuar"}
                 textobtt={"CONTINUAR" }
+                caminho={"/home"}
                 />
                 <div className="semConta">
                     <p>Não tem uma conta?</p>

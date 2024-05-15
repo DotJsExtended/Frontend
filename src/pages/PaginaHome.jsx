@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../components/Logo';
 
-export default function Telahome() {
+export default function PaginaHome() {
     return (
         <>
             <div className='Paginahome'>

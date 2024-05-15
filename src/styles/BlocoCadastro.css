@@ -1,0 +1,152 @@
+@font-face 
+{
+    font-family: "neue machina";
+    src: url("/NeueMachina-Regular.otf") format("opentype");
+}
+
+@font-face 
+{
+    font-family: "neue machina ultrabold";
+    src: url("/NeueMachina-Ultrabold.otf") format("opentype");
+}
+
+@font-face 
+{
+    font-family: "raleway";
+    src: url("/Raleway-Regular.ttf") format("opentype");
+}
+
+.blocoCadastro 
+{
+    color: #FFFAFA;
+    background-color: #2444B5;
+    width: 1000px;
+    height: 550px;
+    border-radius: 16px;
+    position: absolute;
+    left: 250px;
+    top: 220px;
+}
+
+.titleBlocoCadastro 
+{
+    text-align: center;
+    font-family: neue machina ultrabold;
+    font-size: 32px;
+    padding-top: 20px;
+    position: relative;
+    top: 18px;
+}
+
+.inputsBlocoCadastro {
+    font-family: raleway;
+    padding: 30px;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.inputsBlocoCadastro input {
+    font-family: raleway;
+    color: #555555;
+    font-size: 16px;
+    width: 50px;
+    height: 45px;
+    background-color: #fffafa;
+    border-radius: 7px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+.blocosInputBlocoCadastro {
+    margin-top: 25px;
+}
+
+.inputNome input
+{
+    width: 550px;
+    margin-right: 25px;
+}
+
+.inputUser input
+{
+    width: 341px;
+}
+
+.inputEmail input
+{
+    width: 360px;
+    margin-right: 25px;
+}
+
+.inputID input
+{
+    width: 247px;
+    margin-right: 25px;
+}
+
+.inputTel input
+{
+    width: 247px;
+}
+
+.inputSenha input
+{
+    width: 360px;
+    margin-right: 25px;
+}
+
+.inputAreas input
+{
+    width: 531px;
+}
+
+.blocoTextosProibidos 
+{
+    font-family: neue machina;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 30px;
+    position: relative;
+    top: -10px;
+    left: 5px;
+}
+
+.textosProibidos 
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.botaoContinuar button {
+    font-family: neue machina;
+    font-size: 25px; 
+    width: 212px;
+    height: 62px;
+    position: relative;
+    top: -60px;
+    left: 755px;
+    border: none;
+    border-radius: 40px;
+    color: blue;
+    background-color: #99E626;
+}
+
+.gekkoCadastro
+{
+    position: relative;
+    top: 40;
+    left: 1200px;
+    width: 400px;
+}
+
+.gekkoCadastro img
+{
+    height: 720px;
+}

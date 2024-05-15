@@ -9,7 +9,7 @@ export default function PaginaCadastro() {
             <BlocoCadastro />
             
             <div className="gekkoCadastro">
-            <img src="../../public/gekko.svg" />
+              <img src="../../public/gekko.svg" />
             </div>
 
             <Rodape/>

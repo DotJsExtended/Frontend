@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/paginaLogin.css"
+import "../styles/paginaLogin.css"
 
 export default function Input({iconSrc, placeholder, icon2Src, className}){
     return(

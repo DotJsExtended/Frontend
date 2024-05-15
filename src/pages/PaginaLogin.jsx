@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/paginaLogin.css"
+import "../styles/paginaLogin.css"
 import Input from "../components/Input"
 import InputImg from "../components/InputImg"
 import Button from "../components/Button"

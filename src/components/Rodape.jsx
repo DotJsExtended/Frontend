@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../styles/Rodape.css'
 
 export default function Rodape()
@@ -6,7 +7,9 @@ export default function Rodape()
         <div className="rodape">
             <div className="loginRodape">
             Já possui uma conta?
-                <button>LOGIN</button>
+            <Link to={"/login"}><button>
+                LOGIN
+            </button></Link>
             </div>
             <div className='naoFreelancerRodape'>
                 Não é freelancer?

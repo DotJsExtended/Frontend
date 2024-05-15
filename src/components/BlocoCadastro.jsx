@@ -20,10 +20,16 @@ export default function BlocoCadastro()
             </div>
 
             <div className="blocoTextosProibidos">
-                <TextoProibido textoInput={"sadsAaad"}/>   
-                <TextoProibido textoInput={"Oiasdasda"}/>  
-                <TextoProibido textoInput={"Oiasdasd"}/>  
+                <TextoProibido textoProibido={"Pelo menos 8 caracteres"}/>   
+                <TextoProibido textoProibido={"Pelo menos uma letra"}/>  
+                <TextoProibido textoProibido={"Pelo menos um número"}/>  
             </div>    
+
+            <div className="botaoContinuar">
+            <button>
+                CONTINUAR
+            </button>
+            </div>
         
         </div>
     )

@@ -6,7 +6,7 @@ export default function TextoProibido({textoProibido})
                 <img src="../../public/proibido.svg"/>
             </div>
             <div>
-                {textoProibido}oi
+                {textoProibido}
             </div>
         </div>
     )

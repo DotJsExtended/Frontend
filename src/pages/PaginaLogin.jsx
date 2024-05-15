@@ -1,7 +1,8 @@
 import React from "react";
 import "../style/paginaLogin.css"
 import Input from "../components/Input"
-import Button from "../components/Button";
+import InputImg from "../components/InputImg"
+import Button from "../components/Button"
 import Buttontxt from "../components/Buttontxt";
 import ImagemPadrao from "../components/ImageStandard";
 import Logo from "../components/Logo"; 
@@ -9,7 +10,7 @@ import Logo from "../components/Logo";
 export default function PaginaLogin(){
     return(
         <div>
-            <div className="retanguloBranco">
+            <div className="retanguloBranco">   
                 <Buttontxt 
                     className={"botaoVoltar"} 
                     href={""} 
@@ -33,13 +34,13 @@ export default function PaginaLogin(){
                 </div>
                 <Input className={"campoSenha"} iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} />
                 <div className="senha">
-                    <Input className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} icon2Src={"eye.png"}/>
+                    <InputImg className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} icon2Src={"eye.png"}/>
                     <a href="">Esqueci a minha senha</a>
                 </div>
-                
-                <Button 
+                <Button campoLogin
                 className={"continuar"}
                 textobtt={"CONTINUAR" }
+                caminho={"/home"}
                 />
                 <div className="semConta">
                     <p>Não tem uma conta?</p>

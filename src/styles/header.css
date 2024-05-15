@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "neopixel";
+    src: url("../public/NEOPIXEL-Regular\ \(1).otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "neuemachina";
+    src: url("../public/NeueMachina-Regular.otf") format("opentype");
+  }
+
+.logo{
+    font-family: "neopixel";
+    font-size: 50px;
+}
+
+.login{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border-color: rgb(36, 68, 181);
+    margin: 45px;
+    background-color: rgb(36, 68, 181);
+  }
+  
+  .criarconta{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border-color: rgb(153, 230, 38);
+    background-color: rgb(153, 230, 38);
+    margin: 45px;
+    font-family: "neuemachina;"
+  }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  

@@ -1,34 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import '../src/styles/header.css'
+import '../src/styles/texto.css'
+import Header from './components/Header'
+import Texto from './components/Texto'
+import Botoes from './components/Botoes'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+     <>
+     <Header
+     texto1={'SOBRE NÓS'} texto2={'SAIBA MAIS'}
+     />
+     <Texto
+     texto1={'Transforme Ideias'}
+     texto2={'em Realidade -'}
+     texto3={'Contrate talentos flexíveis hoje mesmo!'}     
+     texto4={'Conectamos talentos excepcionais a projetos extraordinários. Descubra uma comunidade vibrante de freelancers qualificados prontos para transformar suas ideias em realidade.'}
+     />
+     <Botoes/>
+     </>
   )
 }
 

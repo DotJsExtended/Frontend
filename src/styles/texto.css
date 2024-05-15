@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "neopixel";
+  src: url("../public/NEOPIXEL-Regular\ \(1).otf") format("opentype");
+}
+
+@font-face {
+  font-family: "neuemachina";
+  src: url("../public/NeueMachina-Regular.otf") format("opentype");
+}
+
+.sessao{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 50px;
+  justify-content: space-around;
+  font-family: "neuemachina";
+}
+
+.sessao h1{
+  font-size: 50px;
+  color: rgb(36, 68, 181);
+  height: 20px;
+}
+
+.sessao h3{
+  font-size: 30px;
+  font-weight: lighter;
+  margin-top: 80px;
+}
+
+.sessao p{
+  font-size: 15px;
+  font-weight: lighter;
+
+}
+
+.button1{
+  height: 40px;
+  width: 200px;
+  margin: 45px;
+  padding: 5px;
+  border-radius: 30px;
+  border-color: rgb(153, 230, 38);
+  background-color: rgb(153, 230, 38);
+  font-family: "neuemachina;";
+  font-size: 15px;
+}
+
+.button2{
+  height: 40px;
+  width: 200px;
+  margin: 45px;
+  padding: 5px;
+  border-radius: 30px;
+  border-color: rgb(36, 68, 181);
+  background-color: rgb(36, 68, 181);
+  font-family: "neuemachina;";
+  font-size: 15px;
+  
+}
+

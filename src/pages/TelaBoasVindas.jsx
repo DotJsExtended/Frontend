@@ -1,11 +1,10 @@
+import '../styles/header.css'
+import '../styles/texto.css'
+import Header from '../components/HeaderNicolas'
+import Texto from '../components/Texto'
+import Botoes from '../components/Botoes'
 
-import '../src/styles/header.css'
-import '../src/styles/texto.css'
-import Header from './components/Header'
-import Texto from './components/Texto'
-import Botoes from './components/Botoes'
-
-function App() {
+function TelaBoasVindas() {
 
   return (
      <>
@@ -23,4 +22,4 @@ function App() {
   )
 }
 
-export default App
+export default TelaBoasVindas

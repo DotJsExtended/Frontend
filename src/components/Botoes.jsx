@@ -1,11 +1,11 @@
-export default function Button({ label }) {
+export default function Button() {
     return (
       <section>
       <button className="button1">
-        {label} <p>QUERO CONTRATAR</p>
+      QUERO CONTRATAR
       </button>
       <button className="button2">
-        {label} <p>QUERO TRABALHAR</p>
+      QUERO TRABALHAR
       </button>
       </section>
      );

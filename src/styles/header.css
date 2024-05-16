@@ -34,7 +34,11 @@
     background-color: rgb(36, 68, 181);
     font-family: "neuemachina";
     font-size: 15px;
-    margin-left: 550px;
+    margin-left: -200px;
+    margin-top: 40px;
+    color: white;
+    text-decoration: underline
+    
   }
   
   .criarconta{
@@ -44,9 +48,10 @@
     border-color: rgb(153, 230, 38);
     background-color: rgb(153, 230, 38);
     margin: 45px;
-    font-family: "neuemachina;";
+    font-family: "neuemachina";
     font-size: 15px;
-    margin-right: 0 2 rem;
+    margin-left: -50px;
+    margin-top: 40px;
 
   }
 
@@ -55,4 +60,20 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .textos{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    width: 400px;
+    margin-top: 33px;
+    margin-bottom: 25px;
+    padding: 0 15rem;
+
+  }
   
+  .headertexto{
+    display: flex;
+    flex-direction: row;
+  }
+

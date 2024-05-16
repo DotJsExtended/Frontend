@@ -6,6 +6,8 @@ import Button from "../components/Buttons/Button"
 import ButtonTxt from "../components/Buttons/ButtonTxt";
 import ImageStandard from "../components/Images/ImageStandard";
 import Logo from "../components/Logo"; 
+import CampoSenha from "../components/PaginaLogin/CampoSenha";
+import CampoLogin from "../components/PaginaLogin/CampoLogin";
 
 export default function PaginaLogin(){
     return(
@@ -32,10 +34,9 @@ export default function PaginaLogin(){
                     <p>ou use seu endereço de email ou</p>
                     <p>nome de usuário</p>
                 </div>
-                <Input className={"campoSenha"} iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} type= {'text'}
-                />
+                <CampoLogin className={"campoSenha"} iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} type= {'text'} />
                 <div className="senha">
-                    <Input2Img className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} icon2Src={"eye.png"}/>
+                    <CampoSenha className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} icon2Src={"eye.png"}/>
                     <a href="">Esqueci a minha senha</a>
                 </div>
                 <Button

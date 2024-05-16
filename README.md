@@ -16,7 +16,8 @@ Além disso, a plataforma oferece funcionalidades extras, como espaços para por
 
 ## Instalação
 
-Npm install - Instalar as dependencias do projetos que são ignoradas no .gitignore
+npm install - Instalar as dependencias do projetos que são ignoradas no .gitignore
+npm run dev - Rodar o projeto localmente
 
 ## Uso
 

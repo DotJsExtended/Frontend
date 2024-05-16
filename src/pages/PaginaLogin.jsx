@@ -47,6 +47,7 @@ export default function PaginaLogin(){
                 <div className="semConta">
                     <p>Não tem uma conta?</p>
                     <Button
+                     caminho={"/cadastro"}
                      className={"criarConta"}
                      textobtt={"CRIAR CONTA"} />
                 </div>

@@ -34,7 +34,7 @@ font-weight: lighter;
   background-color: rgb(36, 68, 181);
   font-family: "neuemachina";
   font-size: 15px;
-  margin-left: -200px;
+  margin-left: -300px;
   margin-top: 40px;
   color: white;
   text-decoration: underline
@@ -46,12 +46,13 @@ font-weight: lighter;
   width: 150px;
   border-radius: 5px;
   border-color: rgb(153, 230, 38);
-  background-color: rgb(153, 230, 38);
   margin: 45px;
+  background-color: rgb(153, 230, 38);
   font-family: "neuemachina";
   font-size: 15px;
-  margin-left: -50px;
+  margin-left: -200px;
   margin-top: 40px;
+  text-decoration: underline
 
 }
 

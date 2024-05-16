@@ -3,6 +3,7 @@ import '../styles/texto.css'
 import Header from '../components/HeaderNicolas'
 import Texto from '../components/Texto'
 import Button from '../components/Buttons/Button'
+import { Link } from 'react-router-dom'
 
 function PaginaBoasVindas() {
 
@@ -20,10 +21,12 @@ function PaginaBoasVindas() {
      <Button 
      textobtt= {'QUERO CONTRATAR'}
      className= {'botaoContratar'}
+     caminho={"/cadastro"}
      />
      <Button
      textobtt= {'QUERO TRABALHAR'}
      className= {'botaoTrabalhar'}
+     caminho={"/cadastro"}
      />
      </>
   )

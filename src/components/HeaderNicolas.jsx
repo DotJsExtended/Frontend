@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import "../styles/HeaderNicolas.css"
 export default function Header({ texto1, texto2 }) {
   return (
    <header>
@@ -8,12 +10,12 @@ export default function Header({ texto1, texto2 }) {
       <h3>{texto2}</h3>
       </div>
       </div>
-        <button className="login">
-        LOG-IN
-        </button>
-        <button className="criarconta">
+        <Link to={"/login"}><button className="login">
+          LOG-IN
+        </button></Link>
+        <Link to={"/precadastro"}><button className="criarconta">
         CRIAR CONTA
-        </button>
+        </button></Link>
      </header>
     )
 }

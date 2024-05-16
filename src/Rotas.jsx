@@ -13,7 +13,7 @@ export default function Rotas(){
             <Route path='/login' element={<PaginaLogin/>} />
             <Route path='/home' element={<PaginaHome/>} />
             <Route path='/cadastro' element={<PaginaCadastro />} />
-            <Route path='/sobrenos' element={<PaginaPreCadastro />} />
+            <Route path='/precadastro' element={<PaginaPreCadastro />} />
         </Routes>
     )
 }

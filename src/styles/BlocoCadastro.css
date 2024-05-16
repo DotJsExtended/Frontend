@@ -139,7 +139,7 @@
     transition: border-radius 0.3s ease;
 }
 
-.botaoContinuar button:hover 
+.botaoContinuar:hover 
 {
     font-family: neue machina;
     font-size: 25px; 

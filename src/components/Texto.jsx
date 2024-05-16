@@ -7,7 +7,12 @@ export default function Texto({texto1, texto2, texto3, texto4}) {
             <h3>{texto3}</h3>
             <p>{texto4}</p>
         </div>
-        <img width="400" src="coisa.png" alt="" />
+        <div className="fundo">
+        <img src="/fundo.png"></img>
+        </div>
+        <div className="boneco">
+        <img src="/boneco.png"></img>
+        </div>
         </div>
     )
 }

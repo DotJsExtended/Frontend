@@ -26,13 +26,21 @@
 .sessao h3{
   font-size: 30px;
   font-weight: lighter;
-  margin-top: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .sessao p{
   font-size: 15px;
   font-weight: lighter;
+}
 
+.texto{
+  width: 500px;
+}
+
+.sessao{
+  justify-content: flex-start;
 }
 
 .botaoContratar{
@@ -43,7 +51,7 @@
   border-radius: 30px;
   border-color: rgb(153, 230, 38);
   background-color: rgb(153, 230, 38);
-  font-family: "neuemachina;";
+  font-family: "neuemachina";
   font-size: 15px;
 }
 
@@ -55,8 +63,20 @@
   border-radius: 30px;
   border-color: rgb(36, 68, 181);
   background-color: rgb(36, 68, 181);
-  font-family: "neuemachina;";
+  font-family: "neuemachina";
   font-size: 15px;
+  color: white;
   
 }
 
+.boneco img{
+  height: 500px;
+  padding: 5px;
+  position: absolute;
+  margin-left: -25px;
+}
+
+.fundo img{
+  height: 400px;
+  position: absolute;
+}

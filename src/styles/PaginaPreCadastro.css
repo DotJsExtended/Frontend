@@ -8,7 +8,7 @@
     src: local(NeueMachina), url(../assets/NeueMachina-Ultrabold.otf);
 }
 
-.PaginaSobreNos
+.PaginaPreCadastro
 {
     font-family: NeueMachinaRegular;
     display: flex;
@@ -16,13 +16,13 @@
     align-items: center;
 }
 
-.headerPaginaSobreNos 
+.headerPaginaPreCadastro
 {
     display: flex;
     justify-content: center;
 }
 
-.textoSobreNos
+.textoPreCadastro
 {
     font-size: 48px;
     width: 800px;
@@ -31,18 +31,18 @@
     top: 110px;
 }
 
-.objetivoTextoSobreNos
+.objetivoTextoPreCadastro
 {
     font-family: NeueMachinaUltrabold;
 }
 
-.freelabTextoSobreNos 
+.freelabTextoPreCadastro
 {
     font-family: NeueMachinaUltrabold;
     color: #99E626;
 }
 
-.imagensTextoSobreNos 
+.imagensTextoPreCadastro
 {
     display: flex;
     gap: 100px;
@@ -50,7 +50,7 @@
     top: 170px;
 }
 
-.imagensTextoSobreNos div 
+.imagensTextoPreCadastro div 
 {
     font-size: 20px;
     display: flex;
@@ -58,18 +58,18 @@
     align-items: center;
 }
 
-.imagensTextoSobreNos img
+.imagensTextoPreCadastro img
 {
     height: 290px;
     transition: height 0.5s ease;
 }
 
-.imagensTextoSobreNos img:hover
+.imagensTextoPreCadastro img:hover
 {
     height: 300px;
 }
 
-.imagensTextoSobreNos texto 
+.imagensTextoPreCadastro texto 
 {
     font-size: 20px;
     width: 400px;

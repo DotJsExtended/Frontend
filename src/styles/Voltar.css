@@ -1,6 +1,6 @@
 @font-face {
     font-family: "neue machina";
-    src: url("/NeueMachina-Regular.otf") format("opentype");
+    src: url("../assets/NeueMachina-Regular.otf") format("opentype");
 }
 
 .botaoVoltar {
@@ -11,7 +11,7 @@
     font-size: 23px;
 }
 
-.botaoVoltar {
+.textoBotaoVoltar {
     color: black;
     position: relative;
     top: 2px;

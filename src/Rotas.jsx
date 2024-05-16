@@ -4,7 +4,7 @@ import PaginaHome from "./pages/PaginaHome";
 import PaginaLogin from "./pages/PaginaLogin";
 import PaginaCadastro from "./pages/PaginaCadastro";
 import PaginaBoasVindas from "./pages/PaginaBoasVindas";
-import PaginaSobreNos from "./pages/PaginaSobreNos";
+import PaginaPreCadastro from "./pages/PaginaPreCadastro";
 
 export default function Rotas(){
     return(
@@ -13,7 +13,7 @@ export default function Rotas(){
             <Route path='/login' element={<PaginaLogin/>} />
             <Route path='/home' element={<PaginaHome/>} />
             <Route path='/cadastro' element={<PaginaCadastro />} />
-            <Route path='/sobrenos' element={<PaginaSobreNos />} />
+            <Route path='/sobrenos' element={<PaginaPreCadastro />} />
         </Routes>
     )
 }

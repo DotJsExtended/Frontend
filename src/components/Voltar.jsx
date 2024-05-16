@@ -1,4 +1,4 @@
-import '../style/Voltar.css'
+import '../styles/Voltar.css'
 
 export default function Voltar()
 {

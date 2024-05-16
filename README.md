@@ -16,7 +16,7 @@ Além disso, a plataforma oferece funcionalidades extras, como espaços para por
 
 ## Instalação
 
-Descreva como instalar seu projeto e quaisquer dependências necessárias.
+Npm install - Instalar as dependencias do projetos que são ignoradas no .gitignore
 
 ## Uso
 

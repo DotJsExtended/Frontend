@@ -1,58 +1,79 @@
 @font-face {
-    font-family: "neopixel";
-    src: url("../public/NEOPIXEL-Regular\ \(1).otf") format("opentype");
-  }
-  
-  @font-face {
-    font-family: "neuemachina";
-    src: url("../public/NeueMachina-Regular.otf") format("opentype");
-  }
+  font-family: "neopixel";
+  src: url("../public/NEOPIXEL-Regular\ \(1).otf") format("opentype");
+}
+
+@font-face {
+  font-family: "neuemachina";
+  src: url("../public/NeueMachina-Regular.otf") format("opentype");
+}
 
 .logo{
-    font-family: "neopixel";
-    font-size: 50px;
-    width: 150px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding: 0 2rem;
+  font-family: "neopixel";
+  font-size: 50px;
+  width: 150px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0 2rem;
 }
 
 .headertexto h3{
-  font-family: "neuemachina";
-  width: 150px;
-  padding: 0 2rem;
-  font-size: 17px;
-  font-weight: lighter;
+font-family: "neuemachina";
+width: 150px;
+padding: 0 2rem;
+font-size: 17px;
+font-weight: lighter;
 }
 
 .login{
-    height: 40px;
-    width: 150px;
-    border-radius: 5px;
-    border-color: rgb(36, 68, 181);
-    margin: 45px;
-    background-color: rgb(36, 68, 181);
-    font-family: "neuemachina";
-    font-size: 15px;
-    margin-left: 550px;
-  }
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  border-color: rgb(36, 68, 181);
+  margin: 45px;
+  background-color: rgb(36, 68, 181);
+  font-family: "neuemachina";
+  font-size: 15px;
+  margin-left: -200px;
+  margin-top: 40px;
+  color: white;
+  text-decoration: underline
   
-  .criarconta{
-    height: 40px;
-    width: 150px;
-    border-radius: 5px;
-    border-color: rgb(153, 230, 38);
-    background-color: rgb(153, 230, 38);
-    margin: 45px;
-    font-family: "neuemachina;";
-    font-size: 15px;
-    margin-right: 0 2 rem;
+}
 
-  }
+.criarconta{
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  border-color: rgb(153, 230, 38);
+  background-color: rgb(153, 230, 38);
+  margin: 45px;
+  font-family: "neuemachina";
+  font-size: 15px;
+  margin-left: -50px;
+  margin-top: 40px;
 
-  header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.textos{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  width: 400px;
+  margin-top: 33px;
+  margin-bottom: 25px;
+  padding: 0 15rem;
+
+}
+
+.headertexto{
+  display: flex;
+  flex-direction: row;
+}
+

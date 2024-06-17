@@ -1,0 +1,46 @@
+.boneco img {
+    height: 500px;
+    padding: 5px;
+    position: absolute;
+    margin-left: -25px;
+}
+
+.fundo img {
+    height: 400px;
+    position: absolute;
+}
+
+.sessao {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 50px;
+    justify-content: space-around;
+    font-family: "neuemachina";
+}
+
+.sessao h1 {
+    font-size: 50px;
+    color: rgb(36, 68, 181);
+    height: 50px;
+}
+
+.sessao h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sessao {
+    justify-content: flex-start;
+}
+
+.sessao p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.texto {
+    width: 500px;
+}

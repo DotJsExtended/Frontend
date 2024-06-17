@@ -1,13 +1,17 @@
 import ButtonTxt from "../components/Buttons/ButtonTxt"
 import ImageStandard from "../components/Images/ImageStandard"
 import CodigoInput from "../components/Paginas2FA/CodigoInput"
-import Voltar from "../components/Voltar"
 import "../styles/Pagina2FAtelefone.css"
 
 export default function Pagina2FAtelefone(){
     return(
         <>
-            <Voltar />
+            <ButtonTxt 
+                    className={"botaoVoltar"} 
+                    caminho={"/login"} 
+                    img={"/seta.svg"} 
+                    texto={"VOLTAR"}  
+            />
             <div className="center2FA">
                 <h1>FreeLaB</h1>
                 <div>

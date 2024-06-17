@@ -7,6 +7,7 @@ import PaginaBoasVindas from "./pages/PaginaBoasVindas";
 import PaginaPreCadastro from "./pages/PaginaPreCadastro";
 import Pagina2FAtelefone from "./pages/Pagina2FAtelefone";
 import Pagina2FAemail from "./pages/Pagina2FAemail";
+import PaginaRecuperaSenha from "./pages/PaginaRecuperaSenha";
 
 export default function Rotas(){
     return(
@@ -18,6 +19,7 @@ export default function Rotas(){
             <Route path='/precadastro' element={<PaginaPreCadastro />} />
             <Route path='/2fa-telefone' element={<Pagina2FAtelefone />} />
             <Route path='/2fa-email' element={<Pagina2FAemail />} />
+            <Route path='/recuperar-senha' element={<PaginaRecuperaSenha />} />
         </Routes>
     )
 }

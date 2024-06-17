@@ -13,12 +13,7 @@ export default function PaginaLogin(){
     return(
         <div>
             <div className="retanguloBranco">   
-                <ButtonTxt 
-                    className={"botaoVoltar"} 
-                    caminho={"/cadastro"} 
-                    img={"seta.svg"} 
-                    texto={"VOLTAR"}  
-                />
+                <ButtonTxt className={"botaoVoltar"} caminho={"/cadastro"} img={"seta.svg"} texto={"VOLTAR"}  />
                 <Logo className={"Logo"}/>
                 <div className="textoBemVindo">
                     <p>Bem vindo de volta! Faça login para
@@ -37,19 +32,12 @@ export default function PaginaLogin(){
                 <CampoLogin className={"campoSenha"} iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} type= {'text'} />
                 <div className="senha">
                     <CampoSenha className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} icon2Src={"eye.png"}/>
-                    <a href="">Esqueci a minha senha</a>
+                    <ButtonTxt texto={"Esqueci minha senha"} caminho={"/recuperar-senha"} />
                 </div>
-                <Button
-                className={"continuar"}
-                textobtt={"CONTINUAR" }
-                caminho={"/home"}
-                />
+                <Button className={"continuar"} textobtt={"CONTINUAR" } caminho={"/2fa-telefone"} />
                 <div className="semConta">
                     <p>Não tem uma conta?</p>
-                    <Button
-                     caminho={"/cadastro"}
-                     className={"criarConta"}
-                     textobtt={"CRIAR CONTA"} />
+                    <Button caminho={"/cadastro"} className={"criarConta"} textobtt={"CRIAR CONTA"} />
                 </div>
                 
             </div>

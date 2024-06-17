@@ -18,7 +18,7 @@ export default function Pagina2FAtelefone(){
                 <EmailInput />
             </div>
 
-            <ImageStandard imagem={"recuperarSenhaImg.svg"} className={"Img2faTelefone"}/>
+            <ImageStandard imagem={"recuperarSenhaImg.svg"} className={"ImgRecSenha"}/>
             <ButtonTxt className={"botaoContinuarSeta"} texto={"CONTINUAR"} img={"arrowContinuar.svg"} caminho={"/home"}/>
 
         </>

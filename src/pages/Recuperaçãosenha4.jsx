@@ -13,9 +13,10 @@ export default function RecuperaSenha4() {
       <Voltar/>
       <Logo className={"logorec"}/>
       <TextoRecSenha4/>
-     <ImageStandard imagem={"./../imagemrec2.svg"} classname={"imagemrec2"}/>
+     <ImageStandard imagem={"./../imagemrec2.svg"} className={"Imagemrec4"}/>
     <ButtonTxt texto={"Não recebeu o email?"} className={"Bnttextrec4"}caminho={"/"}/>
     <Button className={"Voltarlogin"}textobtt={"Voltar para login"} caminho={"/login"}/>
+    <Button className={"Btntreenviar"}textobtt={"Reenviar"} caminho={"/recuperasenha4"}/>
     </div>
   );
 }

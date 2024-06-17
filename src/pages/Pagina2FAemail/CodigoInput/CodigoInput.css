@@ -1,0 +1,21 @@
+.blocoInputCodigos2FA {
+    background-color: #F9F9F9;
+    width: 33vw;
+    height: 32.587vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocoInputCodigos2FA input {
+    width: 12%;
+    height: 40%;
+    border-radius: 20px;
+    border-color: #DEDCDC;
+    border-style: double;
+    margin: 5%;
+    text-align: center;
+    font-size: 5vw;
+}

@@ -3,6 +3,9 @@ import './Header.css'
 export default function Header() {
     return (
         <header>
+            <div className='paginainicial'>
+                <p>Página inicial</p>
+            </div>
             <div className='caixa-de-pesquisa'>
                 <p>Pesquisar</p>
             </div>

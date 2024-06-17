@@ -1,0 +1,10 @@
+@font-face 
+{
+    font-family: "neue machina";
+    src: url("/NeueMachina-Regular.otf") format("opentype");
+}
+
+.principais-escolhas p{
+    font-family: "neue machina";
+    color: #3D3B3A;
+}

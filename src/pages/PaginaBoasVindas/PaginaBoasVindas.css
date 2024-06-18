@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "neopixel";
+    src: url("../public/NEOPIXEL-Regular\ \(1).otf") format("opentype");
+}
+
+@font-face {
+    font-family: "neuemachina";
+    src: url("../public/NeueMachina-Regular.otf") format("opentype");
+}
+
+.botaoContratar {
+    height: 40px;
+    width: 200px;
+    margin: 45px;
+    padding: 5px;
+    border-radius: 30px;
+    border-color: rgb(153, 230, 38);
+    background-color: rgb(153, 230, 38);
+    font-family: "neuemachina";
+    font-size: 15px;
+}
+
+.botaoTrabalhar {
+    height: 40px;
+    width: 200px;
+    margin: 45px;
+    padding: 5px;
+    border-radius: 30px;
+    border-color: rgb(36, 68, 181);
+    background-color: rgb(36, 68, 181);
+    font-family: "neuemachina";
+    font-size: 15px;
+    color: white;
+
+}

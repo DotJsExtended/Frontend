@@ -1,0 +1,29 @@
+.blocoInputEmailRecuperarSenha {
+    background-color: #F9F9F9;
+    width: 33vw;
+    height: 32.587vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocoInputEmailRecuperarSenha p {
+    font-family: neuemachina;
+    text-align: center;
+    color: #2444B5;
+    font-size: 3.295vh;
+}
+
+.blocoInputEmailRecuperarSenha input {
+    width: 80%;
+    height: 15%;
+    border-radius: 10px;
+    border-color: #DEDCDC;
+    border-style: double;
+    margin: 5%;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 10px;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom"
-import PaginaHome from "./pages/PaginaHome";
+
+import PaginaHome from "./pages/PaginaHome/PaginaHome";
 import PaginaLogin from "./pages/PaginaLogin/PaginaLogin";
 import PaginaCadastro from "./pages/PaginaCadastro/PaginaCadastro";
 import PaginaBoasVindas from "./pages/PaginaBoasVindas/PaginaBoasVindas";

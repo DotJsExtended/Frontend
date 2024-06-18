@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "ralewaymedium";
+    src: url("../public/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: "neopixel";
+    src: url("../public/NEOPIXEL-Regular\ \(1).otf") format("opentype");
+}
+
+.opcoes p {
+    font-family: "ralewaymedium";
+    color: #3D3B3A;
+}
+
+.logo h1{
+    font-family: "neopixel";
+}

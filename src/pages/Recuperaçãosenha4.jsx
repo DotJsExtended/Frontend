@@ -11,12 +11,22 @@ export default function RecuperaSenha4() {
   return (
     <div className="RecuperaSenha4">
       <Voltar/>
+      <div className='logocentralizar'>
       <Logo className={"logorec"}/>
+      </div>
       <TextoRecSenha4/>
-     <ImageStandard imagem={"./../imagemrec2.svg"} className={"Imagemrec4"}/>
+     <div className='alinharbotoes'>
+     <div className='buttonrecebeu'>
     <ButtonTxt texto={"Não recebeu o email?"} className={"Bnttextrec4"}caminho={"/"}/>
-    <Button className={"Voltarlogin"}textobtt={"Voltar para login"} caminho={"/login"}/>
+    </div>
+    <div className='buttonreenviar'>
     <Button className={"Btntreenviar"}textobtt={"Reenviar"} caminho={"/recuperasenha4"}/>
+    </div>
+    </div>
+    <div className='botaovoltar'>
+    <Button className={"Voltarlogin"}textobtt={"Voltar para login"} caminho={"/login"}/>
+    </div>
+    <ImageStandard imagem={"./../imagemrec2.svg"} className={"Imagemrec4"}/>
     </div>
   );
 }

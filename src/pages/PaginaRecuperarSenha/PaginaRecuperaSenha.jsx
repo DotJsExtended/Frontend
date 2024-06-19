@@ -18,7 +18,7 @@ export default function Pagina2FAtelefone() {
             </div>
 
             <ImageStandard imagem={"recuperarSenhaImg.svg"} className={"ImgRecSenha"} />
-            <ButtonTxt className={"botaoContinuarSeta"} texto={"CONTINUAR"} img={"arrowContinuar.svg"} caminho={"/home"} />
+            <ButtonTxt className={"botaoContinuarSeta"} texto={"CONTINUAR"} img={"arrowContinuar.svg"} caminho={"/recuperar-senha-confirmacao"} />
 
         </>
     )

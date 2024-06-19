@@ -1,0 +1,20 @@
+.campo {
+    width: 13.981vw;
+    height: 5.397vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.529vw;
+    margin-top: 3.092vh;
+}
+
+.imagemCampo {
+    margin-top: 0.3vw;
+    margin-left: -1vw;
+    height: 3.564vh;
+}
+
+.campo p {
+    height: 2.037vh;
+    margin-left: 1vw;
+}

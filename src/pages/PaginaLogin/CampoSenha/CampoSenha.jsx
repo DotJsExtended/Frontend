@@ -1,14 +1,16 @@
 import React from "react";
+import "./CampoSenha.css"
 
-export default function Input2Img({ iconSrc, placeholder, icon2Src, className }) {
+export default function CampoSenha({ iconSrc, placeholder, icon2Src }) {
     return (
-        <div className={className}>
+        <div className="campoSenha">
             <img src={iconSrc}></img>
             <input type="text" placeholder={placeholder} />
             <div className="icon2">
                 <a href="">
                     <img src={icon2Src}></img>
                 </a>
+
             </div>
         </div>
     )

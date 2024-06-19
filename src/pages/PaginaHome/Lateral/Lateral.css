@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "ralewaymedium";
+    src: url("../public/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: "neopixel";
+    src: url("../public/NEOPIXEL-Regular\ \(1).otf") format("opentype");
+}
+
+.lateral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18.429vw;
+    height: 100vh;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.campos {
+    font-family: "ralewaymedium";
+    font-size: 2.037vh;
+    color: #3D3B3A;
+    margin-top: 3vh;
+}
+
+.campoPaginaInicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campoPaginaInicial .campo {
+    background-color: #D6DFFF;
+    color: #2444B5;
+}
+
+.logoHomePage {
+    width: 15.212vw;
+    height: 5.8vh;
+    margin-top: 2vh;
+    text-align: center;
+    font-family: "neopixel";
+    font-size: 5.601vh;
+}

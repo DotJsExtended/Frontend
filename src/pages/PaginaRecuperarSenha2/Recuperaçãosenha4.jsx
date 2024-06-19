@@ -2,10 +2,10 @@ import react from 'react';
 import Logo from '../components/Logo';
 import '../styles/Recuperaçãosenha4.css';
 import Voltar from '../components/Voltar';
-import TextoRecSenha4 from '../components/TextoRecSenha4';
-import ImageStandard from '../components/Images/ImageStandard';
-import Button from '../components/Buttons/Button';
-import ButtonTxt from '../components/Buttons/ButtonTxt';
+import TextoRecSenha4 from '../../components/TextoRecSenha4';
+import ImageStandard from '../../components/Images/ImageStandard';
+import Button from '../../components/Buttons/Button';
+import ButtonTxt from '../../components/Buttons/ButtonTxt';
 
 export default function RecuperaSenha4() {
   return (
@@ -20,7 +20,7 @@ export default function RecuperaSenha4() {
     <ButtonTxt texto={"Não recebeu o email?"} className={"Bnttextrec4"}caminho={"/"}/>
     </div>
     <div className='buttonreenviar'>
-    <Button className={"Btntreenviar"}textobtt={"Reenviar"} caminho={"/recuperasenha4"}/>
+    <Button className={"Btntreenviar"}textobtt={"Reenviar"} caminho={"/recuperar-senha-confirmacao"}/>
     </div>
     </div>
     <div className='botaovoltar'>

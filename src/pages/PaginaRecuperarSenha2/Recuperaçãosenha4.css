@@ -128,8 +128,7 @@
 .Imagemrec4 img{
     width: 25vw;
     height: 90vh;
-    float: right;
-    margin-top: -75vh;
-    margin-right: 5vw;
-    order: 1;
+    position: absolute;
+    bottom: 0;
+    right: 5vw;
 }

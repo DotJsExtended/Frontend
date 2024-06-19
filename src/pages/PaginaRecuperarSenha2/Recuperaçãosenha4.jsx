@@ -1,8 +1,7 @@
-import react from 'react';
-import Logo from '../components/Logo';
-import '../styles/Recuperaçãosenha4.css';
-import Voltar from '../components/Voltar';
-import TextoRecSenha4 from '../../components/TextoRecSenha4';
+import Logo from '../../pages/PaginaLogin/Logo/Logo';
+import './Recuperaçãosenha4.css';
+import Voltar from '../../components/Buttons/ButtonVoltar/Voltar';
+import TextoRecSenha4 from './BlocoRecSenha2/TextoRecSenha4';
 import ImageStandard from '../../components/Images/ImageStandard';
 import Button from '../../components/Buttons/Button';
 import ButtonTxt from '../../components/Buttons/ButtonTxt';

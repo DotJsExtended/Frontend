@@ -10,12 +10,12 @@ export default function Header({ texto1, texto2 }) {
           <h3>{texto2}</h3>
         </div>
       </div>
-      <Link to={"/login"}><button className="login">
-        LOG-IN
-      </button></Link>
-      <Link to={"/precadastro"}><button className="criarconta">
-        CRIAR CONTA
-      </button></Link>
+      <Link to={"/login"}>
+        <button className="login">LOG-IN</button>
+      </Link>
+      <Link to={"/precadastro"}>
+        <button className="criarconta">CRIAR CONTA</button>
+      </Link>
     </header>
   )
 }

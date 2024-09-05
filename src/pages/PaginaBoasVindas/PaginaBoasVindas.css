@@ -8,22 +8,27 @@
     src: url("../public/NeueMachina-Regular.otf") format("opentype");
 }
 
+.centerBoasVindas{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
 .botaoContratar {
     height: 40px;
     width: 200px;
-    margin: 45px;
-    padding: 5px;
     border-radius: 30px;
     border-color: rgb(153, 230, 38);
     background-color: rgb(153, 230, 38);
     font-family: "neuemachina";
     font-size: 15px;
+    
 }
 
 .botaoTrabalhar {
     height: 40px;
     width: 200px;
-    margin: 45px;
     padding: 5px;
     border-radius: 30px;
     border-color: rgb(36, 68, 181);
@@ -32,4 +37,54 @@
     font-size: 15px;
     color: white;
 
+}
+
+
+
+
+
+
+.boneco img {
+    height: 500px;
+    position: absolute;
+}
+
+.fundo img {
+    height: 400px;
+    position: absolute;
+}
+
+.sessao {
+    display: flex;
+    justify-content: center;
+    font-family: "neuemachina";
+    width: 100vw;
+    align-items: center;
+}
+
+.sessao h1 {
+    font-size: 50px;
+    color: rgb(36, 68, 181);
+    height: 50px;
+}
+
+.sessao h3 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+
+.sessao p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.texto {
+    width: 500px;
+}
+
+.imagemComposta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

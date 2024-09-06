@@ -9,6 +9,7 @@ import PaginaRecuperaSenha2 from "./pages/PaginaRecuperarSenha2/Recuperaçãosen
 import Pagina2FAtelefone from "./pages/Pagina2FAtelefone/Pagina2FAtelefone";
 import Pagina2FAemail from "./pages/Pagina2FAemail/Pagina2FAemail";
 import PaginaRecuperaSenha from "./pages/PaginaRecuperarSenha/PaginaRecuperaSenha";
+import PaginaPerfil from "./pages/PaginaPerfil/PaginaPerfil";
 
 export default function Rotas() {
     return (
@@ -22,6 +23,7 @@ export default function Rotas() {
             <Route path='/2fa-telefone' element={<Pagina2FAtelefone />} />
             <Route path='/2fa-email' element={<Pagina2FAemail />} />
             <Route path='/recuperar-senha' element={<PaginaRecuperaSenha />} />
+            <Route path='/perfil' element={<PaginaPerfil />} />
 
         </Routes>
     )

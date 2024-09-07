@@ -18,6 +18,7 @@
 .botaoContratar {
     height: 40px;
     width: 200px;
+    border-width: 0px;
     border-radius: 30px;
     border-color: rgb(153, 230, 38);
     background-color: rgb(153, 230, 38);
@@ -29,7 +30,7 @@
 .botaoTrabalhar {
     height: 40px;
     width: 200px;
-    padding: 5px;
+    border-width: 0px;
     border-radius: 30px;
     border-color: rgb(36, 68, 181);
     background-color: rgb(36, 68, 181);
@@ -39,27 +40,39 @@
 
 }
 
+.botoesCadastrarBoasVindas{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 
+}
 
+.imagemComposta{
+    background: url("/public/fundo.svg") center center no-repeat ;
+    background-size: contain;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-
+}
 
 .boneco img {
-    height: 500px;
-    position: absolute;
+    height: 60vh;
 }
 
-.fundo img {
-    height: 400px;
-    position: absolute;
-}
+
+
 
 .sessao {
     display: flex;
     justify-content: center;
     font-family: "neuemachina";
-    width: 100vw;
+    width: 75vw;
+    left: 12.5vw;
     align-items: center;
+    height: 85vh;
+    position: relative;
 }
 
 .sessao h1 {
@@ -80,11 +93,8 @@
 }
 
 .texto {
-    width: 500px;
-}
-
-.imagemComposta{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height:60vh;
 }

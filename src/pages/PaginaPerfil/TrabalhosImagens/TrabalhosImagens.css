@@ -1,0 +1,4 @@
+.trabalhos-imagens {
+    display: flex;
+    flex-wrap: wrap;
+  }

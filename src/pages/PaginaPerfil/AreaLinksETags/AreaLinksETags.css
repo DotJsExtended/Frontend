@@ -1,0 +1,9 @@
+.links-tags .links a {
+    margin-right: 10px;
+  }
+  
+.links-tags .tags span {
+    background-color: #e0e0e0;
+    padding: 5px;
+    margin-right: 5px;
+  }

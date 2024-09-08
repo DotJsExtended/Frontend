@@ -31,14 +31,16 @@ export default function PaginaLogin() {
                     <CampoLogin className={"campoSenha"} iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} type={'text'} />
                     <div className="senha">
                         <CampoSenha className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} />
-                        <Link to={"/recuperar-senha"}>Esqueci minha senha</Link>
+                        {/* <Link to={"/recuperar-senha"}>Esqueci minha senha</Link> */}
+                        <Link to={""}>Esqueci minha senha</Link>
                     </div>
                 </div>
 
-                <Button className={"continuar"} textobtt={"CONTINUAR"} caminho={"/2fa-telefone"} />
+                {/* <Button className={"continuar"} textobtt={"CONTINUAR"} caminho={"/2fa-telefone"} /> */}
+                <Button className={"continuar"} textobtt={"CONTINUAR"} caminho={"/home"} />
                 <div className="semConta">
                     <p>Não tem uma conta?</p>
-                    <Button caminho={"/cadastro"} className={"criarConta"} textobtt={"CRIAR CONTA"} />
+                    <Button caminho={"/precadastro"} className={"criarConta"} textobtt={"CRIAR CONTA"} />
                 </div>
             </div>
         </div>

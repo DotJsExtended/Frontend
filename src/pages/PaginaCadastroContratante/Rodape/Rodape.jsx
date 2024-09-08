@@ -11,7 +11,7 @@ export default function Rodape() {
                 </button></Link>
             </div>
             <div className='naoFreelancerRodape'>
-                Não é freelancer?
+                <Link to={'/cadastro-freelancer'}>Não é Contratante?</Link>
             </div>
         </div>
     )

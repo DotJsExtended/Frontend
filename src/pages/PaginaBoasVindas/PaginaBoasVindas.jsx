@@ -10,8 +10,7 @@ function PaginaBoasVindas() {
       <div className="sessao">
         <div className="texto">
           <div>
-            <h1>Transforme Ideias</h1>
-            <h1>em Realidade -</h1>
+            <h1>Transforme Ideias em Realidade -</h1>
           </div>
 
           <h3>Contrate talentos flexíveis hoje mesmo!</h3>
@@ -20,12 +19,12 @@ function PaginaBoasVindas() {
             <Button
               textobtt={'QUERO CONTRATAR'}
               className={'botaoContratar'}
-              caminho={"/cadastro"}
+              caminho={"/cadastro-contratante"}
             />
             <Button
               textobtt={'QUERO TRABALHAR'}
               className={'botaoTrabalhar'}
-              caminho={"/cadastro"}
+              caminho={"/cadastro-freelancer"}
             />
           </div>
 

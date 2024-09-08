@@ -1,13 +1,11 @@
-import ButtonTxt from '../ButtonTxt'
 import './Voltar.css'
 
-export default function Voltar({ caminho }) {
+export default function Voltar() {
     return (
-        <ButtonTxt
-            className={"botaoVoltar"}
-            caminho={caminho}
-            img={"/seta.svg"}
-            texto={"VOLTAR"}
-        />
+        
+        <div className="botaoVoltar" onClick={() => {history.back()}}>
+            <img src="/seta.svg"></img>
+            <p>VOLTAR</p>
+        </div>
     )
 }

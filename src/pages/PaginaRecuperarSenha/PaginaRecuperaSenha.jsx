@@ -1,4 +1,5 @@
 import ButtonTxt from "../../components/Buttons/ButtonTxt"
+import Voltar from "../../components/Buttons/ButtonVoltar/Voltar"
 import ImageStandard from "../../components/Images/ImageStandard"
 import EmailInput from "./EmailInput/EmailInput"
 import "./PaginaRecuperarSenha.css"
@@ -6,12 +7,7 @@ import "./PaginaRecuperarSenha.css"
 export default function Pagina2FAtelefone() {
     return (
         <>
-            <ButtonTxt
-                className={"botaoVoltar"}
-                caminho={"/login"}
-                img={"/seta.svg"}
-                texto={"VOLTAR"}
-            />
+            <Voltar />
             <div className="centerRecuperaSenha">
                 <h1>FreeLaB</h1>
                 <EmailInput />

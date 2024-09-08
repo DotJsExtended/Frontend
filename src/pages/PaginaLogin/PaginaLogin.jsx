@@ -6,12 +6,13 @@ import ImageStandard from "../../components/Images/ImageStandard";
 import Logo from "./Logo/Logo";
 import CampoSenha from "./CampoSenha/CampoSenha";
 import CampoLogin from "./CampoLogin/CampoLogin";
+import Voltar from "../../components/Buttons/ButtonVoltar/Voltar";
 
 export default function PaginaLogin() {
     return (
         <div>
             <div className="retanguloBranco">
-                <ButtonTxt className={"botaoVoltar"} caminho={"/cadastro"} img={"seta.svg"} texto={"VOLTAR"} />
+                <Voltar />
                 <Logo className={"Logo"} />
                 <div className="textoBemVindo">
                     <p>Bem vindo de volta! Faça login para acessar sua conta e explorar novas oportunidades ou gerenciar seus projetos</p>

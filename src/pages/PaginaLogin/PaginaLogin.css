@@ -44,25 +44,6 @@
      font-size: 15px;
  }
 
- .botaoVoltar {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     position: relative;
-     right: 35%;
-     text-decoration: none;
- }
-
- .botaoVoltar img {
-     height: 17px;
- }
-
- .botaoVoltar p {
-     text-decoration: none;
-     font-family: NeueMachinaRegular;
-     color: #000000;
- }
-
  .imagem img {
      width: 250px;
  }

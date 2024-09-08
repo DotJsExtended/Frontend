@@ -1,6 +1,6 @@
 import './Header.css'
 import ButtonTxt from '../../../components/Buttons/ButtonTxt'
-
+import Voltar from '../../../components/Buttons/ButtonVoltar/Voltar'
 export default function Header() {
     return (
         <div className="Header">
@@ -12,12 +12,7 @@ export default function Header() {
                     Cadastre-se e junte-se à nossa comunidade de talentosos freelancers e contratantes
                 </div>
             </div>
-            <ButtonTxt
-                className={"botaoVoltar"}
-                caminho={"/"}
-                img={"/seta.svg"}
-                texto={"VOLTAR"}
-            />
+            <Voltar />
         </div>
     )
 }

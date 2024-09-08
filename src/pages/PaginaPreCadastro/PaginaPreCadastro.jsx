@@ -8,9 +8,7 @@ export default function PaginaPreCadastro() {
         <div>
             <div className="PaginaPreCadastro">
                 <div className="headerPaginaPreCadastro">
-                    <Voltar
-                        caminho={"/login"}
-                    />
+                    <Voltar />
                     <div className="textoPreCadastro">
                         QUAL É O SEU <especial className="objetivoTextoPreCadastro">OBJETIVO</especial> AO SE CADASTRAR NO <especial className="freelabTextoSobreNos">FREELAB</especial>?
                     </div>

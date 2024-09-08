@@ -10,7 +10,7 @@ export default function PaginaPreCadastro() {
                 <div className="headerPaginaPreCadastro">
                     <Voltar />
                     <div className="textoPreCadastro">
-                        QUAL É O SEU <especial className="objetivoTextoPreCadastro">OBJETIVO</especial> AO SE CADASTRAR NO <especial className="freelabTextoSobreNos">FREELAB</especial>?
+                        QUAL É O SEU <strong>OBJETIVO</strong> AO SE CADASTRAR NO <especial className="freelabTextoSobreNos">FREELAB</especial>?
                     </div>
                 </div>
 

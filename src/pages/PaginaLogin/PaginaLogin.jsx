@@ -7,6 +7,7 @@ import Logo from "./Logo/Logo";
 import CampoSenha from "./CampoSenha/CampoSenha";
 import CampoLogin from "./CampoLogin/CampoLogin";
 import Voltar from "../../components/Buttons/ButtonVoltar/Voltar";
+import { Link } from "react-router-dom";
 
 export default function PaginaLogin() {
     return (
@@ -26,11 +27,14 @@ export default function PaginaLogin() {
                     <p>ou use seu endereço de email ou</p>
                     <p>nome de usuário</p>
                 </div>
-                <CampoLogin className={"campoSenha"} iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} type={'text'} />
-                <div className="senha">
-                    <CampoSenha className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} icon2Src={"eye.png"} />
-                    <ButtonTxt texto={"Esqueci minha senha"} caminho={"/recuperar-senha"} />
+                <div className="camposPreencherLogin">
+                    <CampoLogin className={"campoSenha"} iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} type={'text'} />
+                    <div className="senha">
+                        <CampoSenha className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} />
+                        <Link to={"/recuperar-senha"}>Esqueci minha senha</Link>
+                    </div>
                 </div>
+
                 <Button className={"continuar"} textobtt={"CONTINUAR"} caminho={"/2fa-telefone"} />
                 <div className="semConta">
                     <p>Não tem uma conta?</p>

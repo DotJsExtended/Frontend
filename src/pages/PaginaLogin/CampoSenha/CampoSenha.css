@@ -1,20 +1,21 @@
 .campoSenha {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     background-color: white;
-    width: 300px;
+    width: 16.3vw;
     height: 40px;
     border-radius: 8px;
+    contain: strict;
+    min-width: 150px
 }
 
 .campoSenha input {
     border: none;
     font-family: Raleway;
     font-size: 17px;
-    margin-left: -7%;
     outline: 0;
+    width: 80%;
 }
 
 .campoSenha img {

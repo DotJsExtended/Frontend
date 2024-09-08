@@ -2,9 +2,9 @@ export default function ImagemTexto({ className, srcImage, texto }) {
     return (
         <div className={className}>
             <img src={srcImage}></img>
-            <texto>
+            <p>
                 {texto}
-            </texto>
+            </p>
         </div>
     )
 }

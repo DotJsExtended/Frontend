@@ -44,7 +44,6 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-
 }
 
 .imagemComposta{
@@ -96,5 +95,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height:60vh;
+    height:80vh;
+}
+
+.texto h1{
+    height: fit-content;
 }

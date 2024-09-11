@@ -1,0 +1,30 @@
+@font-face 
+{
+    font-family: "neue machina";
+    src: url("/NeueMachina-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: RalewayRegular;
+    src: local(RalewayRegular), url(../../assets/raleway/Raleway-Regular.ttf);
+}
+
+.container{
+    background-color: #FBFBFB;
+    width: 81.571vw;
+    padding: 2vw;
+}
+.container h1{
+    font-family: RalewayRegular;
+    color: #3D3B3A;
+    font-size: 19px;
+}
+.container h2{
+    font-family: "neue machina";
+    color: #3D3B3A;
+    font-weight: lighter;
+}
+
+.headerHome{
+    display: flex;
+    justify-content: space-between;
+}

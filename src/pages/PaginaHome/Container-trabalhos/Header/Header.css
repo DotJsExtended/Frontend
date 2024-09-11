@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "ralewaysemibold";
+    src: url("../public/Raleway-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "ralewaymedium";
+    src: url("../public/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: "ralewayregular";
+    src: url("../public/Raleway-Regular.ttf");
+}
+
+@font-face 
+{
+    font-family: "neue machina";
+    src: url("/NeueMachina-Regular.otf") format("opentype");
+}
+
+.paginainicial p{
+    font-family: "ralewaysemibold";
+    color: #3D3B3A;
+}
+
+.boas-vindas h1{
+    font-family: "neue machina";
+    color: #2444B5;
+}
+
+.boas-vindas h2{
+    font-family: "ralewaymedium";
+    color: #3D3B3A;
+}
+
+.caixa-de-pesquisa p{
+    font-family: "ralewayregular";
+    color: #231F1C;
+}

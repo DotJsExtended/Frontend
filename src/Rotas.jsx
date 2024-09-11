@@ -1,10 +1,11 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom"
-import PaginaHome from "./pages/PaginaHome";
+import PaginaHome from "./pages/PaginaHome/PaginaHome";
 import PaginaLogin from "./pages/PaginaLogin/PaginaLogin";
 // import PaginaCadastroFreelancer from "./pages/PaginaCadastroFreelancer/PaginaCadastroFreelancer";
 import PaginaBoasVindas from "./pages/PaginaBoasVindas/PaginaBoasVindas";
 import PaginaPreCadastro from "./pages/PaginaPreCadastro/PaginaPreCadastro";
+import PaginaRecuperaSenha2 from "./pages/PaginaRecuperarSenha2/Recuperaçãosenha4";
 import Pagina2FAtelefone from "./pages/Pagina2FAtelefone/Pagina2FAtelefone";
 import Pagina2FAemail from "./pages/Pagina2FAemail/Pagina2FAemail";
 import PaginaRecuperaSenha from "./pages/PaginaRecuperarSenha/PaginaRecuperaSenha";

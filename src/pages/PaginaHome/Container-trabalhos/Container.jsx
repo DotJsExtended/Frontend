@@ -7,14 +7,14 @@ export default function Container() {
     const oferta = {
         icon: "https://st3.depositphotos.com/43745012/44906/i/450/depositphotos_449066958-stock-photo-financial-accounting-logo-financial-logo.jpg",
         nomeEmpresa: "THE LAB",
-        segmento: "Produções Visuais", 
+        segmento: "Produções Visuais",
         situacao: "Disponível",
         cargoProcurado: "Editor de Vídeo",
         descricao: "Você é apaixonado por transformar ideias em vídeos incríveis e dinâmicos? Estamos buscando um talentoso editor de vídeo para se juntar à nossa equipe em um projeto empolgante e inovador.",
         prazo: "25/04",
         valor: 99,
         tempoDesdePublicacao: 10
-        
+
     }
     return (
         <div className="container">
@@ -31,6 +31,9 @@ export default function Container() {
                 <OfertaTrabalho oferta={oferta} />
             </div>
             <h2>Oportunidades disponíveis</h2>
+            <div className='oportunidadesDisponiveisHome'>
+                <OfertaTrabalho oferta={oferta} />
+            </div>
         </div>
     )
 }

@@ -1,0 +1,126 @@
+
+@font-face {
+    font-family: "raleway";
+    src: url("/Raleway-Regular.ttf") format("opentype");
+}
+
+.ofertaTrabalho{
+    font-family:"raleway";
+    font-size: 13px;
+    min-height: fit-content;
+    background-color: white;
+    width: 25vw;
+    border-radius: 16px;
+    box-shadow: 3px 3px 5px rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.headerOfertaTrabalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: fit-content;
+}
+
+.situacaoOferta{
+    background-color: #99e626;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #457400;
+}
+
+.infosEmpresaHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: fit-content;
+    
+
+}
+
+.headerOfertaTrabalho img{
+    min-height: 48px;
+    height: 10vh;
+    border-radius: 100%;
+}
+
+.salvarButton{
+    background-color: #f2f2f4;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 5px;
+    min-height: fit-content;
+
+}
+.salvarButton img{
+    width: 30px;
+    height: 33px;
+    min-height: 0px;
+    
+}
+
+.descricaoOfertaTrabalho{
+    min-height: fit-content;
+
+}
+.infosOfertaTrabalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+    min-height: fit-content;
+}
+
+.infosOfertaTrabalho .prazoOferta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    min-height: fit-content;
+}
+.infosOfertaTrabalho .valorOferta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    min-height: fit-content;
+
+}
+.infosOfertaTrabalho .tempoOferta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    min-height: fit-content;
+
+}
+
+.footerOfertaTrabalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.buttonDetalhesOfertaTrabalho{
+    border-radius: 7px;
+    border: none;
+    height: 30px;
+    width: 120px;
+    background-color: #2444B5;
+    color: white;
+    font-size: 14px;
+    
+}

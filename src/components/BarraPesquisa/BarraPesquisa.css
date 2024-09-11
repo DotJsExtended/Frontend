@@ -1,6 +1,30 @@
-.barraPesquisa{
-    width: 45vw;
-    background-color: rgb(255, 255, 255);
-    contain: fit;
-    border-radius: 10px;
+.barraPesquisa {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    width: 40vw;
+    min-height: 40px;
+    border-radius: 8px;
+    contain: strict;
+    min-width: 150px; 
+    justify-content: space-between;
+    padding-left: 10px;
+    margin-top: 2px;
+}
+
+.barraPesquisa input {
+    border: none;
+    font-family: Raleway;
+    font-size: 17px;
+    outline: 0;
+    color: #231f1c;
+    width: 90%;
+}
+
+.barraPesquisa img {
+    height: 25px;
+    width: 40px;
+    background-color: white;
+
 }

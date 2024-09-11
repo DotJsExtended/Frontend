@@ -1,7 +1,7 @@
 import React from "react";
 import "./CampoLogin.css"
 
-export default function CampoLogin({ iconSrc, placeholder, icon2Src }) {
+export default function CampoLogin({ iconSrc, placeholder}) {
     return (
         <div className="campoLogin">
             <img src={iconSrc}></img>

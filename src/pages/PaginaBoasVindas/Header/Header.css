@@ -11,17 +11,31 @@
 .logo {
   font-family: "neopixel";
   font-size: 50px;
-  width: 150px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding: 0 2rem;
 }
 
-.headertexto h3 {
+.headertexto{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.acoesHeaderBoasVindas{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60vw;
+  justify-content: space-between;
+}
+.botoesHeaderBoasVindas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: fit-content;
+  gap: 20px;
+}
+header h3 {
   font-family: "neuemachina";
-  width: 150px;
-  padding: 0 2rem;
-  font-size: 17px;
   font-weight: lighter;
 }
 
@@ -29,13 +43,10 @@
   height: 40px;
   width: 150px;
   border-radius: 5px;
-  border-color: rgb(36, 68, 181);
-  margin: 45px;
   background-color: rgb(36, 68, 181);
+  border-width: 0px;
   font-family: "neuemachina";
   font-size: 15px;
-  margin-left: -300px;
-  margin-top: 40px;
   color: white;
   text-decoration: underline
 }
@@ -44,13 +55,10 @@
   height: 40px;
   width: 150px;
   border-radius: 5px;
-  border-color: rgb(153, 230, 38);
-  margin: 45px;
+  border-width: 0px;
   background-color: rgb(153, 230, 38);
   font-family: "neuemachina";
   font-size: 15px;
-  margin-left: -200px;
-  margin-top: 40px;
   text-decoration: underline
 }
 
@@ -58,20 +66,9 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.textos {
-  display: flex;
-  flex-direction: row;
-  font-size: 20px;
-  width: 400px;
-  margin-top: 33px;
-  margin-bottom: 25px;
-  padding: 0 15rem;
-
-}
-
-.headertexto {
-  display: flex;
-  flex-direction: row;
+  align-items: center;
+  height: 15vh;
+  width: 95vw;
+  position: relative;
+  left: 2.5vw;
 }

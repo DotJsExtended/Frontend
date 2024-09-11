@@ -6,12 +6,14 @@ import ImageStandard from "../../components/Images/ImageStandard";
 import Logo from "./Logo/Logo";
 import CampoSenha from "./CampoSenha/CampoSenha";
 import CampoLogin from "./CampoLogin/CampoLogin";
+import Voltar from "../../components/Buttons/ButtonVoltar/Voltar";
+import { Link } from "react-router-dom";
 
 export default function PaginaLogin() {
     return (
         <div>
             <div className="retanguloBranco">
-                <ButtonTxt className={"botaoVoltar"} caminho={"/cadastro"} img={"seta.svg"} texto={"VOLTAR"} />
+                <Voltar />
                 <Logo className={"Logo"} />
                 <div className="textoBemVindo">
                     <p>Bem vindo de volta! Faça login para acessar sua conta e explorar novas oportunidades ou gerenciar seus projetos</p>
@@ -25,15 +27,20 @@ export default function PaginaLogin() {
                     <p>ou use seu endereço de email ou</p>
                     <p>nome de usuário</p>
                 </div>
-                <CampoLogin className={"campoSenha"} iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} type={'text'} />
-                <div className="senha">
-                    <CampoSenha className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} icon2Src={"eye.png"} />
-                    <ButtonTxt texto={"Esqueci minha senha"} caminho={"/recuperar-senha"} />
+                <div className="camposPreencherLogin">
+                    <CampoLogin className={"campoSenha"} iconSrc={"mail.png"} placeholder={"Email ou nome de usuário"} type={'text'} />
+                    <div className="senha">
+                        <CampoSenha className={"campoLogin"} iconSrc={"lock.png"} placeholder={"Senha"} />
+                        {/* <Link to={"/recuperar-senha"}>Esqueci minha senha</Link> */}
+                        <Link to={""}>Esqueci minha senha</Link>
+                    </div>
                 </div>
-                <Button className={"continuar"} textobtt={"CONTINUAR"} caminho={"/2fa-telefone"} />
+
+                {/* <Button className={"continuar"} textobtt={"CONTINUAR"} caminho={"/2fa-telefone"} /> */}
+                <Button className={"continuar"} textobtt={"CONTINUAR"} caminho={"/home"} />
                 <div className="semConta">
                     <p>Não tem uma conta?</p>
-                    <Button caminho={"/cadastro"} className={"criarConta"} textobtt={"CRIAR CONTA"} />
+                    <Button caminho={"/precadastro"} className={"criarConta"} textobtt={"CRIAR CONTA"} />
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ export default function BlocoCadastro() {
     return (
         <div className="blocoCadastro">
             <div className="titleBlocoCadastro">
-                CADASTRO - FREELANCER
+                CADASTRO - CONTRATANTE
             </div>
             <div className="inputsBlocoCadastro">
                 <InputBlocoCadastro nomeClassName={"inputNome"} textInput={"Nome Completo"} />
@@ -16,7 +16,7 @@ export default function BlocoCadastro() {
                 <InputBlocoCadastro nomeClassName={"inputID"} textInput={"CPF/CNPJ"} />
                 <InputBlocoCadastro nomeClassName={"inputTel"} textInput={"Telefone"} />
                 <InputBlocoCadastro nomeClassName={"inputSenha"} textInput={"Senha"} typeInput={"password"} />
-                <InputBlocoCadastro nomeClassName={"inputAreas"} textInput={"Áreas de Atuação"} />
+                <InputBlocoCadastro nomeClassName={"inputAreas"} textInput={"Segmento"} />
             </div>
 
             <div className="blocoTextosProibidos">

@@ -8,23 +8,29 @@
     src: url("../public/NeueMachina-Regular.otf") format("opentype");
 }
 
+.centerBoasVindas{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
 .botaoContratar {
     height: 40px;
     width: 200px;
-    margin: 45px;
-    padding: 5px;
+    border-width: 0px;
     border-radius: 30px;
     border-color: rgb(153, 230, 38);
     background-color: rgb(153, 230, 38);
     font-family: "neuemachina";
     font-size: 15px;
+    
 }
 
 .botaoTrabalhar {
     height: 40px;
     width: 200px;
-    margin: 45px;
-    padding: 5px;
+    border-width: 0px;
     border-radius: 30px;
     border-color: rgb(36, 68, 181);
     background-color: rgb(36, 68, 181);
@@ -32,4 +38,66 @@
     font-size: 15px;
     color: white;
 
+}
+
+.botoesCadastrarBoasVindas{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.imagemComposta{
+    background: url("/public/fundo.svg") center center no-repeat ;
+    background-size: contain;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.boneco img {
+    height: 60vh;
+}
+
+
+
+
+.sessao {
+    display: flex;
+    justify-content: center;
+    font-family: "neuemachina";
+    width: 75vw;
+    left: 12.5vw;
+    align-items: center;
+    height: 85vh;
+    position: relative;
+}
+
+.sessao h1 {
+    font-size: 50px;
+    color: rgb(36, 68, 181);
+    height: 50px;
+}
+
+.sessao h3 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+
+.sessao p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:80vh;
+}
+
+.texto h1{
+    height: fit-content;
 }

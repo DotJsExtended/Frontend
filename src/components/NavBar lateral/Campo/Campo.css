@@ -2,19 +2,18 @@
     width: 13.981vw;
     height: 5.397vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border-radius: 0.529vw;
     margin-top: 3.092vh;
+    padding: 2px;
+    
 }
 
-.imagemCampo {
-    margin-top: 0.3vw;
-    margin-left: -1vw;
-    height: 3.564vh;
+.imagemCampo img {
+    max-height: 5.397vh;
 }
 
 .campo p {
-    height: 2.037vh;
     margin-left: 1vw;
 }

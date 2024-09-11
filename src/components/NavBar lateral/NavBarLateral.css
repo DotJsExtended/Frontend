@@ -15,7 +15,9 @@
     width: 18.429vw;
     height: 100vh;
     background-color: white;
-    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgb(197, 197, 197);
+    z-index: 1;
+
 }
 
 .campos {

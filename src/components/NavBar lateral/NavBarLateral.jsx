@@ -1,7 +1,7 @@
-import "./Lateral.css"
+import "./NavBarLateral.css"
 import Campo from "./Campo/Campo"
 
-export default function Lateral() {
+export default function NavBarLateral({campoSelecionado}) {
     return (
         <div className="lateral">
             <div className="logoHomePage">

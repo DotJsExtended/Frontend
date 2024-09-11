@@ -1,0 +1,6 @@
+.barraPesquisa{
+    width: 45vw;
+    background-color: rgb(255, 255, 255);
+    contain: fit;
+    border-radius: 10px;
+}

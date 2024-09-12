@@ -1,0 +1,4 @@
+.PaginaMeuPerfil {
+    display: flex;
+    flex-direction: row;
+}

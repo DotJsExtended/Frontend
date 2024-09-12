@@ -1,0 +1,68 @@
+@font-face 
+{
+    font-family: "neue machina";
+    src: url("/NeueMachina-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: RalewayRegular;
+    src: local(RalewayRegular), url(../../assets/raleway/Raleway-Regular.ttf);
+}
+
+.ContainerTopo {
+    background-color: #f2f2f2;
+    
+    text-align: center;
+  }
+
+.topo h3{
+    font-family: RalewayRegular;
+    font-weight: bolder;
+    color: #3D3B3A;
+}
+
+.topo p{
+    font-family: RalewayRegular;
+    font-weight: 100;
+    color: #3D3B3A;
+}
+
+.header1 h1{
+    font-family: RalewayRegular;
+    font-weight: bolder;
+    color: #3D3B3A;
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+}
+
+.header1 p{
+    font-family: RalewayRegular;
+    font-weight: 100;
+    color: #3D3B3A;
+}
+
+.header2 h1{
+    font-family: RalewayRegular;
+    font-weight: bolder;
+    color: #3D3B3A;
+}
+
+.header2 p{
+    font-family: RalewayRegular;
+    font-weight: 100;
+    color: #646261;
+}
+
+.SobreMim h3{
+    font-family: RalewayRegular;
+    font-weight: 100;
+    color: #646261;
+}
+
+.SobreMim p{
+    font-family: RalewayRegular;
+    font-weight: 100;
+    color: #3D3B3A;
+    font-size: 14px;
+}

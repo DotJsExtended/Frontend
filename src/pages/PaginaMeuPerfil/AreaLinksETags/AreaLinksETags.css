@@ -1,0 +1,36 @@
+@font-face 
+{
+    font-family: "neue machina";
+    src: url("/NeueMachina-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: RalewayRegular;
+    src: local(RalewayRegular), url(../../assets/raleway/Raleway-Regular.ttf);
+}
+
+.links-tags .links a {
+    font-family: RalewayRegular;
+    color: #3D3B3A;
+    margin-right: 3vh;
+  }
+
+.links h3{
+    font-family: RalewayRegular;
+    font-weight: 100;
+    color: #646261;
+    margin-bottom: 2vh;
+}
+  
+.links-tags .tags span {
+    background-color: #e0e0e0;
+    font-family: RalewayRegular;
+    margin-right: 3vh;
+    color: #3D3B3A;
+  }
+
+.tags h3{
+    font-family: RalewayRegular;
+    font-weight: 100;
+    color: #646261;
+    margin-bottom: 2vh;
+}

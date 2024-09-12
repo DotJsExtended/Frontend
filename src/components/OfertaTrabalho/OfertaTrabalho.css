@@ -4,12 +4,14 @@
     src: url("/Raleway-Regular.ttf") format("opentype");
 }
 
-.ofertaTrabalho{
+.ofertaTrabalho {
+    flex: 0 0 auto; /* Impede que os itens se deformem para caber no container */
+    width: 30vw; /* Largura fixa para os itens */
+    min-width: 400px; /* Tamanho mínimo para prevenir compressão */
     font-family:"raleway";
     font-size: 13px;
     min-height: fit-content;
     background-color: white;
-    width: 25vw;
     border-radius: 16px;
     box-shadow: 3px 3px 5px rgb(228, 228, 228);
     display: flex;
@@ -71,7 +73,6 @@
 .salvarButton{
     background-color: #f2f2f4;
     height: fit-content;
-    width: fit-content;
     border-radius: 5px;
     min-height: fit-content;
 

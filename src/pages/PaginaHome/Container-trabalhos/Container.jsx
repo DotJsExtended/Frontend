@@ -38,8 +38,9 @@ export default function Container() {
         prazo: "25/04",
         valor: 99,
         tempoDesdePublicacao: 10
-
     }
+
+    
     return (
         <div className="container">
             <div className='headerHome'>
@@ -55,11 +56,15 @@ export default function Container() {
                 <OfertaTrabalho oferta={oferta} />
             </div>
             <h2>Oportunidades disponíveis</h2>
-            <div className='oportunidadesDisponiveisHome'>
-                <OfertaTrabalho oferta={oferta} />
-                <OfertaTrabalho oferta={oferta2} />
-                <OfertaTrabalho oferta={oferta3} />
-                <OfertaTrabalho oferta={oferta3} />
+            <div className="scroll-container">
+                <button className="scroll-left">◀</button>
+                <div className='oportunidadesDisponiveisHome'>
+                    <OfertaTrabalho oferta={oferta} />
+                    <OfertaTrabalho oferta={oferta2} />
+                    <OfertaTrabalho oferta={oferta3} />
+                    <OfertaTrabalho oferta={oferta3} />
+                </div>
+                <button className="scroll-right">▶</button>
             </div>
         </div>
     )

@@ -6,7 +6,7 @@ export default function SaudacoesPosLogin({apelido, fotoPerfil}){
     let saudacao;
     if(hour < 12)
         saudacao = "Bom dia"
-    else if (hour > 12 && hour < 18)
+    else if (hour >= 12 && hour <= 18)
         saudacao = "Boa tarde"
     else
         saudacao = "Boa noite"

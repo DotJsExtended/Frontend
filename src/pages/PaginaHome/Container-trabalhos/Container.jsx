@@ -8,7 +8,31 @@ export default function Container() {
         icon: "https://st3.depositphotos.com/43745012/44906/i/450/depositphotos_449066958-stock-photo-financial-accounting-logo-financial-logo.jpg",
         nomeEmpresa: "THE LAB",
         segmento: "Produções Visuais",
-        situacao: "Disponível",
+        situacao: "disponivel",
+        cargoProcurado: "Editor de Vídeo",
+        descricao: "Você é apaixonado por transformar ideias em vídeos incríveis e dinâmicos? Estamos buscando um talentoso editor de vídeo para se juntar à nossa equipe em um projeto empolgante e inovador.",
+        prazo: "25/04",
+        valor: 99,
+        tempoDesdePublicacao: 10
+
+    }
+    const oferta2 = {
+        icon: "https://st3.depositphotos.com/43745012/44906/i/450/depositphotos_449066958-stock-photo-financial-accounting-logo-financial-logo.jpg",
+        nomeEmpresa: "THE LAB",
+        segmento: "Produções Visuais",
+        situacao: "encerrado",
+        cargoProcurado: "Editor de Vídeo",
+        descricao: "Você é apaixonado por transformar ideias em vídeos incríveis e dinâmicos? Estamos buscando um talentoso editor de vídeo para se juntar à nossa equipe em um projeto empolgante e inovador.",
+        prazo: "25/04",
+        valor: 99,
+        tempoDesdePublicacao: 10
+
+    }
+    const oferta3 = {
+        icon: "https://st3.depositphotos.com/43745012/44906/i/450/depositphotos_449066958-stock-photo-financial-accounting-logo-financial-logo.jpg",
+        nomeEmpresa: "THE LAB",
+        segmento: "Produções Visuais",
+        situacao: "andamento",
         cargoProcurado: "Editor de Vídeo",
         descricao: "Você é apaixonado por transformar ideias em vídeos incríveis e dinâmicos? Estamos buscando um talentoso editor de vídeo para se juntar à nossa equipe em um projeto empolgante e inovador.",
         prazo: "25/04",
@@ -33,6 +57,9 @@ export default function Container() {
             <h2>Oportunidades disponíveis</h2>
             <div className='oportunidadesDisponiveisHome'>
                 <OfertaTrabalho oferta={oferta} />
+                <OfertaTrabalho oferta={oferta2} />
+                <OfertaTrabalho oferta={oferta3} />
+                <OfertaTrabalho oferta={oferta3} />
             </div>
         </div>
     )

@@ -40,6 +40,19 @@
     color: #457400;
 }
 
+.situacaoOferta.disponivel{
+    background-color: #99e626;
+    color: #457400;
+}
+.situacaoOferta.encerrado{
+    background-color: #FFA19B;
+    color: #72110A;
+}
+.situacaoOferta.andamento{
+    background-color: #FDC83C;
+    color: #977009;
+}
+
 .infosEmpresaHeader{
     display: flex;
     flex-direction: row;

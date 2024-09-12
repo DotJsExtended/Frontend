@@ -28,3 +28,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+.oportunidadesDisponiveisHome{
+    display: flex;
+    flex-direction: row;
+}

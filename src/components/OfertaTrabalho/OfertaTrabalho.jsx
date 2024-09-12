@@ -12,9 +12,19 @@ export default function OfertaTrabalho({ oferta }) {
                     </div>
                 </div>
 
-                <div className="situacaoOferta">
-                    <p>{oferta.situacao}</p>
-                </div>
+                {oferta.situacao === "disponivel" ?
+                    <div className="situacaoOferta disponivel">
+                        <p>Disponível</p>
+                    </div>
+                    : oferta.situacao === "encerrado" ? 
+                    <div className="situacaoOferta encerrado">
+                        <p>Encerrado</p>
+                    </div> :
+                    <div className="situacaoOferta andamento">
+                        <p>Em andamento</p>
+                    </div> 
+                }
+
                 <div className="salvarButton">
                     <img src="/salvarHome.svg" alt="" />
                 </div>
@@ -38,7 +48,7 @@ export default function OfertaTrabalho({ oferta }) {
                 </div>
             </div>
             <div className="footerOfertaTrabalho">
-                <Button textobtt={"Detalhes"} className={"buttonDetalhesOfertaTrabalho"} caminho={""}/>
+                <Button textobtt={"Detalhes"} className={"buttonDetalhesOfertaTrabalho"} caminho={""} />
             </div>
         </div>
     )

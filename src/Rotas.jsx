@@ -11,6 +11,7 @@ import Pagina2FAemail from "./pages/Pagina2FAemail/Pagina2FAemail";
 import PaginaRecuperaSenha from "./pages/PaginaRecuperarSenha/PaginaRecuperaSenha";
 import PaginaCadastroContratante from "./pages/PaginaCadastroContratante/PaginaCadastroContratante";
 import PaginaMeusTrabalhos from "./pages/PaginaMeusTrabalhos/PaginaMeusTrabalhos";
+import PaginaMeuPerfil from "./pages/PaginaMeuPerfil/PaginaMeuPerfil";
 
 export default function Rotas() {
     return (
@@ -25,6 +26,7 @@ export default function Rotas() {
             <Route path='/2fa-email' element={<Pagina2FAemail />} />{/*Não tá para a mostra steam*/}
             <Route path='/recuperar-senha' element={<PaginaRecuperaSenha />} /> {/*Não tá para a mostra steam*/}
             <Route path='/meus-trabalhos' element={<PaginaMeusTrabalhos />} /> 
+            <Route path='/meu-perfil' element={<PaginaMeuPerfil />} /> 
         </Routes>
     )
 }

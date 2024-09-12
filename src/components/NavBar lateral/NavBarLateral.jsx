@@ -1,6 +1,5 @@
 import "./NavBarLateral.css"
 import Campo from "./Campo/Campo"
-import { NavLink } from "react-router-dom"
 
 export default function NavBarLateral({ campoSelecionado }) {
     return (
@@ -32,7 +31,7 @@ export default function NavBarLateral({ campoSelecionado }) {
                     iconeNaoSelecionado={"/saves.svg"}
                 />
                 <Campo
-                    caminho={"/em-construcao"}
+                    caminho={"/meu-perfil"}
                     nomeCampo={"Meu Perfil"}
                     iconeNaoSelecionado={"/profileNaoSelecionado.svg"}
                     iconeSelecionado={"/profileSelecionado.svg"}

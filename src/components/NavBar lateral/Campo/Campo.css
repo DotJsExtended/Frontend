@@ -1,4 +1,4 @@
-.campo {
+.navLink {
     width: 13.981vw;
     height: 5.397vh;
     display: flex;
@@ -7,13 +7,43 @@
     border-radius: 0.529vw;
     margin-top: 3.092vh;
     padding: 2px;
+    color: #3D3B3A;
+    text-decoration: none;
+    font-family: "ralewaymedium";
+    font-size: 2.037vh;
+    margin-top: 3vh;
+}
+
+.navLink:active{
+    color: #3D3B3A;
+}
+.navLink.active{ /* .active faz parte do componente NavLink que permite saber se o link para o qual ele aponta está sendo acessado naquele momento */
+    background-color: #D6DFFF;
+    color: #2444B5;
+    
+}
+.navLink.active p { /* .active faz parte do componente NavLink que permite saber se o link para o qual ele aponta está sendo acessado naquele momento */
+    color: #2444B5;
     
 }
 
-.imagemCampo img {
-    max-height: 5.397vh;
+.campo{
+    width: 13.981vw;
+    height: 5.397vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0.529vw;
+    color: #3D3B3A;
+    text-decoration: none;
+    font-family: "ralewaymedium";
+    font-size: 2.037vh;
 }
 
 .campo p {
     margin-left: 1vw;
 }
+.imagemCampo {
+    max-height: 5.397vh;
+}
+

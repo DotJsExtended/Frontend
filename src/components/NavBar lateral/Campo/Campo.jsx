@@ -1,14 +1,17 @@
+import { NavLink } from 'react-router-dom'
 import './Campo.css'
 
-export default function Campo({ campo, nomeCampo, icone }) {
+export default function Campo({ caminho, nomeCampo, iconeSelecionado, iconeNaoSelecionado }) {
     return (
-        <div className={campo}>
-            <div className="campo">
-                <div className="imagemCampo">
-                    <img src={icone} alt="" />
+        <NavLink className="navLink" to={caminho}>
+            {({ isActive, isPending, isTransitioning }) => (
+                <div className='campo'>
+                    <img className="imagemCampo" src={isActive ? iconeSelecionado : iconeNaoSelecionado} />
+                    <p>{nomeCampo}</p>
                 </div>
-                <p>{nomeCampo}</p>
-            </div>
-        </div>
+            )}
+
+        </NavLink>
+
     )
 }

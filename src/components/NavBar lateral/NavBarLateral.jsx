@@ -1,7 +1,8 @@
 import "./NavBarLateral.css"
 import Campo from "./Campo/Campo"
+import { NavLink } from "react-router-dom"
 
-export default function NavBarLateral({campoSelecionado}) {
+export default function NavBarLateral({ campoSelecionado }) {
     return (
         <div className="lateral">
             <div className="logoHomePage">
@@ -9,49 +10,52 @@ export default function NavBarLateral({campoSelecionado}) {
             </div>
             <div className="campos">
                 <Campo
-                    campo={"campoPaginaInicial"}
+                    caminho={"/home"}
                     nomeCampo={"Pagina Inicial"}
-                    icone={"/home.svg"}
+                    iconeSelecionado={"/homeSelecionado.svg"}
+                    iconeNaoSelecionado={"/homeNaoSelecionado.svg"}
                 />
                 <Campo
-                    campo={""}
+                    caminho={"/meus-trabalhos"}
                     nomeCampo={"Meus Trabalhos"}
-                    icone={"/work.svg"}
-                />
+                    iconeSelecionado={"/workSelecionado.svg"}
+                    iconeNaoSelecionado={"/workNaoSelecionado.svg"} />
+
                 <Campo
-                    campo={""}
+                    caminho={"/em-construcao"}
                     nomeCampo={"Calendário"}
-                    icone={"/calendar.svg"}
+                    iconeNaoSelecionado={"/calendar.svg"}
                 />
                 <Campo
-                    campo={""}
+                    caminho={"/em-construcao"}
                     nomeCampo={"Salvos"}
-                    icone={"/saves.svg"}
+                    iconeNaoSelecionado={"/saves.svg"}
                 />
                 <Campo
-                    campo={""}
+                    caminho={"/em-construcao"}
                     nomeCampo={"Meu Perfil"}
-                    icone={"/profile.svg"}
+                    iconeNaoSelecionado={"/profileNaoSelecionado.svg"}
+                    iconeSelecionado={"/profileSelecionado.svg"}
                 />
                 <Campo
-                    campo={""}
+                    caminho={"/em-construcao"}
                     nomeCampo={"Relatórios"}
-                    icone={"/relatorio.svg"}
+                    iconeNaoSelecionado={"/relatorio.svg"}
                 />
                 <Campo
-                    campo={""}
+                    caminho={"/em-construcao"}
                     nomeCampo={"Recebimentos"}
-                    icone={"/profits.svg"}
+                    iconeNaoSelecionado={"/profits.svg"}
                 />
                 <Campo
-                    campo={""}
+                    caminho={"/em-construcao"}
                     nomeCampo={"Conversas"}
-                    icone={"/chat.svg"}
+                    iconeNaoSelecionado={"/chat.svg"}
                 />
                 <Campo
-                    campo={""}
+                    caminho={"/em-construcao"}  
                     nomeCampo={"Contratos"}
-                    icone={"/contract.svg"}
+                    iconeNaoSelecionado={"/contract.svg"}
                 />
             </div>
         </div>

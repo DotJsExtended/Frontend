@@ -20,24 +20,6 @@
 
 }
 
-.campos {
-    font-family: "ralewaymedium";
-    font-size: 2.037vh;
-    color: #3D3B3A;
-    margin-top: 3vh;
-}
-
-.campoPaginaInicial {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.campoPaginaInicial .campo {
-    background-color: #D6DFFF;
-    color: #2444B5;
-}
-
 .logoHomePage {
     width: 15.212vw;
     height: 5.8vh;

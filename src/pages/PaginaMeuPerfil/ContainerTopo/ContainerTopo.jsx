@@ -6,7 +6,19 @@ export default function ContainerTopo() {
     <div className="ContainerTopo">
     <div className="topo">
         <h3>Meu Perfil</h3>
+          <div className="notifs1-icon">
+              <img src="notifs1-icon.svg"></img>
+          </div>
         <p>Notificações</p>
+          <div className="notifs2-icon">
+              <img src="notifs2-icon.svg"></img>
+          </div>
+          <div className="icon-perfil">
+            <img src="IconePaginaPerfil.png"></img>
+          </div>
+          <div className="camera-icon">
+              <img src="camera-icon.svg"></img>
+          </div>
     </div>
     <div className="header1">
       <h1>Marcos Oliveira</h1>
@@ -19,8 +31,14 @@ export default function ContainerTopo() {
       <h1>108</h1>
       <p>Conexões</p>
       <h1>245</h1>
+          <div className="editar-icon">
+              <img src="editar-icon.svg"></img>
+          </div>
     </div>
     <div className="SobreMim">
+          <div className="sobre-mim-icon">
+              <img src="sobre-mim-icon.svg"></img>
+          </div>
         <h3>Sobre mim</h3>
         <h3>Ver mais</h3>
         <p>Designer Gráfico e Motion Designer com 7 anos de experiência. Especialista em identidades visuais, animações e 

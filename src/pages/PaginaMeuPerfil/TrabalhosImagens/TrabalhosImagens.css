@@ -11,4 +11,6 @@
 .trabalhos-imagens {
     display: flex;
     flex-wrap: wrap;
+    height: 60vh;
+    display: flex;
   }

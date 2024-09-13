@@ -6,13 +6,6 @@ export default function ContainerTopo() {
     <div className="ContainerTopo">
     <div className="topo">
         <h3>Meu Perfil</h3>
-          <div className="notifs1-icon">
-              <img src="notifs1-icon.svg"></img>
-          </div>
-        <p>Notificações</p>
-          <div className="notifs2-icon">
-              <img src="notifs2-icon.svg"></img>
-          </div>
           <div className="icon-perfil">
             <img src="IconePaginaPerfil.png"></img>
           </div>

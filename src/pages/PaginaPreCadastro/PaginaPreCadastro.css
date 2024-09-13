@@ -21,11 +21,11 @@
 }
 
 .textoPreCadastro {
-    font-size: 48px;
-    width: 800px;
+    font-size: 2.3em;
+    width: 50vw;
     text-align: center;
     position: relative;
-    top: 110px;
+    top: 12vh;
 }
 
 
@@ -36,31 +36,41 @@
 
 .imagensTextoPreCadastro {
     display: flex;
-    gap: 100px;
+    gap: 5vw;
     position: relative;
-    top: 170px;
+    top: 20vh;
+}
+
+.textoImagemSobreNos1 p {
+    width: 25vw;
+    margin-top: 3vh;
+}
+
+.textoImagemSobreNos1 img {
+    height: 37vh;
+    transition: height 0.5s ease;
+}
+
+.textoImagemSobreNos2 img {
+    height: 40vh;
+    transition: height 0.5s ease;
 }
 
 .imagensTextoPreCadastro div {
-    font-size: 20px;
+    font-size: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.imagensTextoPreCadastro img {
-    height: 290px;
-    transition: height 0.5s ease;
-}
-
 .imagensTextoPreCadastro img:hover {
-    height: 300px;
+    height: 45vh;
 }
 
 .imagensTextoPreCadastro a {
     color: black;
     font-size: 20px;
-    width: 400px;
+    width: 30vw;
     text-align: center;
     text-decoration: none;
 }

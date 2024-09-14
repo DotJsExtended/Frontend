@@ -4,6 +4,7 @@ import "./ContainerTopo.css"
 export default function ContainerTopo() {
   return (
     <div className="ContainerTopo">
+    <div className="containerHeader">
     <div className="topo">
         <h3>Meu Perfil</h3>
           <div className="icon-perfil">
@@ -27,6 +28,7 @@ export default function ContainerTopo() {
           <div className="editar-icon">
               <img src="editar-icon.svg"></img>
           </div>
+    </div>
     </div>
     <div className="SobreMim">
           <div className="sobre-mim-icon">

@@ -4,7 +4,7 @@ import './Container.css'
 
 export default function Container() {
     const oferta = {
-        icon: "https://lh3.googleusercontent.com/proxy/i_GiRw6IcmSpil3fsVqcFXDfECon1HFfkNrP0LP3-BtXKQyknAZrRmRHtE7kbkkQPpDu9ELWh_qowpGDnmKty18Jjue-aSOAmHb16ep2XP-7XXrt2UlqabMj1x_nx6aPv5gqOOhnxX1vvPiW4Ll0",
+        icon: "https://img.freepik.com/vetores-gratis/gradiente-de-ilustracao-de-passaro-colorido_343694-1741.jpg",
         nomeEmpresa: "LOKO",
         segmento: "Moda e estilo",
         situacao: "em andamento",
@@ -29,7 +29,7 @@ export default function Container() {
 
     }
     const oferta3 = {
-        icon: "https://img.freepik.com/vetores-gratis/placa-de-reciclagem-de-folha-verde_78370-845.jpg",
+        icon: "https://png.pngtree.com/png-clipart/20201224/ourmid/pngtree-various-industry-logos-png-image_2609762.jpg",
         nomeEmpresa: "Amigos da terra",
         segmento: "Sustentabilidade e Ecologia",
         situacao: "encerrado",
@@ -46,7 +46,7 @@ export default function Container() {
                 <div>
                     <h1>Meus Trabalhos</h1>
                 </div>
-                <SaudacoesPosLogin apelido={"Dan"} fotoPerfil={"https://blog.unyleya.edu.br/wp-content/uploads/2017/12/saiba-como-a-educacao-ajuda-voce-a-ser-uma-pessoa-melhor.jpeg"} />
+                <SaudacoesPosLogin apelido={"Maria"} fotoPerfil={"https://blog.unyleya.edu.br/wp-content/uploads/2017/12/saiba-como-a-educacao-ajuda-voce-a-ser-uma-pessoa-melhor.jpeg"} />
             </div>
 
             <h2>Trabalhos em andamento</h2>

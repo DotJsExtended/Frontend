@@ -8,14 +8,14 @@ export default function ContainerTopo() {
     <div className="topo">
         <h3>Meu Perfil</h3>
           <div className="icon-perfil">
-            <img src="IconePaginaPerfil.png"></img>
+            <img src="https://blog.unyleya.edu.br/wp-content/uploads/2017/12/saiba-como-a-educacao-ajuda-voce-a-ser-uma-pessoa-melhor.jpeg"></img>
           </div>
           <div className="camera-icon">
               <img src="camera-icon.svg"></img>
           </div>
     </div>
     <div className="header1">
-      <h1>Marcos Oliveira</h1>
+      <h1>Maria Fernanda</h1>
       <p>Designer Gráfico & Motion Designer</p>
     </div>
     <div className="header2">

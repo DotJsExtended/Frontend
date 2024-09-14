@@ -29,6 +29,10 @@
     padding: 30px;
 }
 
+.icon-perfil img{
+    border-radius: 100%;
+}
+
 .topo h3{
     font-family: RalewayRegular;
     font-weight: bolder;

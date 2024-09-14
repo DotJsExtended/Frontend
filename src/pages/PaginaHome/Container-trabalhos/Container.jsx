@@ -37,7 +37,7 @@ export default function Container() {
                     <h1>Página inicial</h1>
                     <BarraPesquisa />
                 </div>
-                <SaudacoesPosLogin apelido={"Dan"} fotoPerfil={"https://blog.unyleya.edu.br/wp-content/uploads/2017/12/saiba-como-a-educacao-ajuda-voce-a-ser-uma-pessoa-melhor.jpeg"} />
+                <SaudacoesPosLogin apelido={"Maria"} fotoPerfil={"https://blog.unyleya.edu.br/wp-content/uploads/2017/12/saiba-como-a-educacao-ajuda-voce-a-ser-uma-pessoa-melhor.jpeg"} />
             </div>
 
             <h2>Principais escolhas para você</h2>

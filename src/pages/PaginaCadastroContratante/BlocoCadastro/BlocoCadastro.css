@@ -16,27 +16,27 @@
 .blocoCadastro {
     color: #FFFAFA;
     background-color: #2444B5;
-    width: 73.2vw;
-    height: 85.8vh;
-    border-radius: 1.17em;
+    width: 1000px;
+    height: 550px;
+    border-radius: 16px;
     position: absolute;
-    left: 18.3vw;
-    top: 34.3vh;
+    left: 250px;
+    top: 220px;
 }
 
 .titleBlocoCadastro {
     text-align: center;
     font-family: neue machina ultrabold;
-    font-size: 2em;
-    padding-top: 1.25em;
+    font-size: 32px;
+    padding-top: 20px;
     position: relative;
-    top: 1.12em;
+    top: 18px;
 }
 
 .inputsBlocoCadastro {
     font-family: raleway;
-    padding: 1.875em;
-    font-size: 0.9375em;
+    padding: 30px;
+    font-size: 15px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -45,81 +45,81 @@
 .inputsBlocoCadastro input {
     font-family: raleway;
     color: #555555;
-    font-size: 1em;
-    width: 3.66em;
-    height: 2.81em;
+    font-size: 16px;
+    width: 50px;
+    height: 45px;
     background-color: #fffafa;
-    border-radius: 0.44em;
+    border-radius: 7px;
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
-    margin-top: 0.44em;
-    padding-left: 0.625em;
+    margin-top: 7px;
+    padding-left: 10px;
 }
 
 .blocosInputBlocoCadastro {
-    margin-top: 1.56em;
+    margin-top: 25px;
 }
 
 .inputNome input {
-    width: 40.25vw;
-    margin-right: 1.83vw;
+    width: 550px;
+    margin-right: 25px;
 }
 
 .inputUser input {
-    width: 24.96vw;
+    width: 341px;
 }
 
 .inputEmail input {
-    width: 26.35vw;
-    margin-right: 1.83vw;
+    width: 360px;
+    margin-right: 25px;
 }
 
 .inputID input {
-    width: 18.08vw;
-    margin-right: 1.83vw;
+    width: 247px;
+    margin-right: 25px;
 }
 
 .inputTel input {
-    width: 18.08vw;
+    width: 247px;
 }
 
 .inputSenha input {
-    width: 26.35vw;
-    margin-right: 1.83vw;
+    width: 360px;
+    margin-right: 25px;
 }
 
 .inputAreas input {
-    width: 38.88vw;
+    width: 531px;
 }
 
 .blocoTextosProibidos {
     font-family: neue machina;
-    font-size: 0.9375em;
-    margin-top: 0;
-    margin-left: 2.19vw;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 30px;
     position: relative;
-    top: -0.625em;
-    left: 0.31vw;
+    top: -10px;
+    left: 5px;
 }
 
 .textosProibidos {
     display: flex;
     align-items: center;
-    gap: 0.31vw;
-    margin-bottom: 0.9375em;
+    gap: 5px;
+    margin-bottom: 15px;
 }
 
 .botaoContinuar {
     font-family: neue machina;
-    font-size: 1.56em;
-    width: 15.52vw;
-    height: 9.67vh;
+    font-size: 25px;
+    width: 212px;
+    height: 62px;
     position: relative;
-    top: -9.36vh;
-    left: 55.27vw;
+    top: -60px;
+    left: 755px;
     border: none;
-    border-radius: 2.5em;
+    border-radius: 40px;
     color: black;
     background-color: #99E626;
     transition: border-radius 0.3s ease;
@@ -127,25 +127,26 @@
 
 .botaoContinuar:hover {
     font-family: neue machina;
-    font-size: 1.56em;
-    width: 15.52vw;
-    height: 9.67vh;
+    font-size: 25px;
+    width: 212px;
+    height: 62px;
     position: relative;
-    top: -9.36vh;
-    left: 55.27vw;
+    top: -60px;
+    left: 755px;
     border: none;
-    border-radius: 0.625em;
+    border-radius: 10px;
     color: black;
     background-color: #99E626;
 }
 
 .gekkoCadastro {
     position: relative;
-    top: 6.24vh;
-    left: 87.84vw;
-    width: 29.28vw;
+    top: 40;
+    left: 1200px;
+    width: 400px;
 }
 
 .gekkoCadastro img {
-    height: 112.33vh;
+    height: 720px;
 }
+

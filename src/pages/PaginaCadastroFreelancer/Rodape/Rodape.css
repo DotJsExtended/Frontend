@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "raleway";
+    src: url("/Raleway-Regular.ttf") format("opentype");
+}
+
+.rodape {
+    font-family: raleway
+}
+
+.loginRodape {
+    position: absolute;
+    top: 800px;
+    left: 260px;
+}
+
+.loginRodape button {
+    font-family: neue machina;
+    font-size: 25px;
+    width: 212px;
+    height: 62px;
+    border: solid 1px #2444B5;
+    border-radius: 40px;
+    color: #2444B5;
+    background-color: white;
+    margin-left: 25px;
+    transition: border-radius 0.3s ease;
+}
+
+.loginRodape button:hover {
+    font-family: neue machina;
+    font-size: 25px;
+    width: 212px;
+    height: 62px;
+    border: solid 1px #2444B5;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #2444B5;
+    margin-left: 25px;
+}
+
+.naoFreelancerRodape {
+    text-decoration: underline;
+    position: absolute;
+    top: 822px;
+    left: 1040px;
+}

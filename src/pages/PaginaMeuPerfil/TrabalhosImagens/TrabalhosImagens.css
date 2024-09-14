@@ -8,6 +8,11 @@
     src: local(RalewayRegular), url(../../assets/raleway/Raleway-Regular.ttf);
 }
 
+.portfolio-topo {
+    display: flex;
+    justify-content: space-between;
+}
+
 .portfolio-topo h3{
     font-family: RalewayRegular;
     font-weight: 300;
@@ -23,7 +28,7 @@
   }
 
 .trabalhos-imagens img{
-    height: 41.498vh;
-    width: 35.359vw;
+    height: 39.498vh;
+    width: 33.359vw;
     justify-content: space-around;
   }

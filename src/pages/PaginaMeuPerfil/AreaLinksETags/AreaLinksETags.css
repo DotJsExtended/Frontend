@@ -8,7 +8,9 @@
     src: local(RalewayRegular), url(../../assets/raleway/Raleway-Regular.ttf);
 }
 .links-tags{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .links-tags .links a {
@@ -36,6 +38,10 @@
     font-weight: 100;
     color: #646261;
     margin-bottom: 2vh;
+}
+
+.tags{
+    justify-content: space-between;
 }
 
 .design-grafico p{

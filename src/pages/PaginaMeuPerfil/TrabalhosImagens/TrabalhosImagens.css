@@ -8,6 +8,10 @@
     src: local(RalewayRegular), url(../../assets/raleway/Raleway-Regular.ttf);
 }
 
+.portfolio {
+    padding: 30px;
+}
+
 .portfolio-topo {
     display: flex;
     justify-content: space-between;
@@ -21,10 +25,10 @@
 }
 
 .trabalhos-imagens {
-    display: flex;
-    flex-wrap: wrap;
-    height: 60vh;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    flex-wrap: wrap;  
   }
 
 .trabalhos-imagens img{

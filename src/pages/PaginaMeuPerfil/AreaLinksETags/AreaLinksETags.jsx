@@ -20,11 +20,21 @@ export default function AreaLinksETags() {
               <img src="tags-icon.svg"></img>
           </div>
         <h3>Tags</h3>
-        <span>Design Gráfico </span>
-        <span>Motion Design </span>
-        <span>Photoshop </span>
-        <span>Edição de Vídeo </span>
-        <span>Premiere Pro</span>
+          <div className="design-grafico">
+              <p>Design Gráfico</p>
+          </div>
+          <div className="motion-design">
+              <p>Motion Design</p>
+          </div>
+          <div className="photoshop">
+              <p>Photoshop</p>
+          </div>
+          <div className="edicao-de-video">
+              <p>Edição de Vídeo</p>
+          </div>
+          <div className="premiere-pro">
+              <p>Premiere Pro</p>
+          </div>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     border-bottom: 1px solid #ddd;
     text-align: center;
   }
@@ -22,21 +22,21 @@
     font-family: RalewayRegular;
     font-weight: bolder;
     color: #3D3B3A;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .topo p{
     font-family: RalewayRegular;
     font-weight: 100;
     color: #3D3B3A;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .header1 h1{
     font-family: RalewayRegular;
     font-weight: bolder;
     color: #3D3B3A;
-    font-size: 50px;
+    font-size: 40px;
     margin: 0;
 }
 
@@ -44,7 +44,7 @@
     font-family: RalewayRegular;
     font-weight: 100;
     color: #3D3B3A;
-    font-size: 25px;
+    font-size: 17px;
 }
 
 .header2{
@@ -56,31 +56,32 @@
     font-family: RalewayRegular;
     font-weight: bolder;
     color: #3D3B3A;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .header2 p{
     font-family: RalewayRegular;
     font-weight: 100;
     color: #646261;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .SobreMim h3{
     font-family: RalewayRegular;
     font-weight: 100;
     color: #646261;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .SobreMim p{
     font-family: RalewayRegular;
     font-weight: 100;
     color: #3D3B3A;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .icon-perfil img{
     height: 24.961vh;
     width: 11.713vw;
 }
+

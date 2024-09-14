@@ -7,6 +7,9 @@
     font-family: RalewayRegular;
     src: local(RalewayRegular), url(../../assets/raleway/Raleway-Regular.ttf);
 }
+.links-tags{
+    
+}
 
 .links-tags .links a {
     font-family: RalewayRegular;
@@ -33,4 +36,69 @@
     font-weight: 100;
     color: #646261;
     margin-bottom: 2vh;
+}
+
+.design-grafico p{
+    font-family: RalewayRegular;
+    font-weight: 100;
+    margin-bottom: 2vh;
+    background-color: #F46A8E;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.motion-design p{
+    font-family: RalewayRegular;
+    font-weight: 100;
+    margin-bottom: 2vh;
+    background-color: #30A2F4;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.photoshop p{
+    font-family: RalewayRegular;
+    font-weight: 100;
+    margin-bottom: 2vh;
+    background-color: #105384;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.edicao-de-video p{
+    font-family: RalewayRegular;
+    font-weight: 100;
+    margin-bottom: 2vh;
+    background-color: #7385DB;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.premiere-pro p{
+    font-family: RalewayRegular;
+    font-weight: 100;
+    margin-bottom: 2vh;
+    background-color: #F4A630;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
 }

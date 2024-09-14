@@ -25,4 +25,5 @@
 .trabalhos-imagens img{
     height: 41.498vh;
     width: 35.359vw;
+    justify-content: space-around;
   }
